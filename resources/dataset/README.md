@@ -1,0 +1,1 @@
+- Makaleler alt klasöründe veriseti ile ilgili makaleler yer almaktadır. Makaleler konusundaki notlar ya buradan ya da external bir link verilecektir.
