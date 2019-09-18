@@ -8,3 +8,6 @@ Bu verileri kullanarak kendilerinin paylaştıkları kişiliklerden yola çıkar
 - https://eksisozluk.com/sozlukculerin-kisilik-analizleri--4133116?p=6  (yaklaşık 60 entry)
 
 - https://eksisozluk.com/16-personalities--4966174  (yaklaşık 30 entry)
+
+
+- Resources klasörü altında konularla ilgili makaleler, linkler yer almaktadır.
