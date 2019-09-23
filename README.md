@@ -8,17 +8,19 @@
 
 - https://eksisozluk.com/16-personalities--4966174  (yaklaşık 30 entry)
 
+- https://eksisozluk.com/myers-briggs-kisilik-gostergesi--797181?p=1  (yaklaşık 520 entry)
+
 Yukarıda bulunan başlıkların altına insanlar internet üzerinden çözmüş oldukları MBTI kişilik testlerini paylaştılar. 
 Bu verileri kullanarak paylaştıkları kendilerine ait olan kişilik özellikleri ve girmiş oldukları entry'ler toplanarak bunlarla etiketli bir veri seti elde etmiş olacağız.
 
 Çözmüş oldukları MBTI testi sonucundan çıkan kişiliklerini belirtmiş;
 
-    ANALİZCİ 167
-    DİPLOMAT 144
-    GÖZCÜLER 84
-    KAŞİFLER 59
+    ANALİZCİ 243
+    DİPLOMAT 213
+    GÖZCÜLER 127
+    KAŞİFLER 80
 
-olmak üzere toplam 454 kullanıcılı bir veri setimiz oluşmuş durumdadır.
+olmak üzere toplam 663 kullanıcılı bir veri setimiz oluşmuş durumdadır.
 
 ## RESOURCES
 
