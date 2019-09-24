@@ -29,7 +29,7 @@ Bu verileri kullanarak paylaştıkları kendilerine ait olan kişilik özellikle
         LOJİSTİKÇİ  33         21+12   TÜMÜ çekilecek.
         SAVUNMACI   26         17+9    TÜMÜ çekilecek.
         YÖNETİCİ    44         26+18   TÜMÜ çekilecek.
-        KONSÜL      34         13+11   TÜMÜ çekilecek.
+        KONSÜL      24         13+11   TÜMÜ çekilecek.
     KAŞİFLER        80
         BECERİKLİ   13         7+6     sadece yeni eklenen 6 kullanıcı çekilecek.
         MACERACI    16         14+2    sadece yeni eklenen 2 kullanıcı çekilecek.
