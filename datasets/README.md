@@ -2,6 +2,8 @@ flaminis --> isimli bir kullanıcı yok
 
 snowdiyebiri* --> isimli bir kullanıcı yok
 
+antik sehir -> cekilirken hata alındı
+
 bazı kişilik tiplerinde tekrar eden kullanıcı tipleri var
 
 indirilen entryler ile kullanıcıların entry sayıları karşılaştırılmalı ki atlanılan entry var mı anlaşılsın
