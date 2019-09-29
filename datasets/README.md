@@ -4,6 +4,8 @@ snowdiyebiri* --> isimli bir kullanıcı yok
 
 antik sehir -> cekilirken hata alındı
 
+synallagmatique -> entrylerini sildirmis
+
 bazı kişilik tiplerinde tekrar eden kullanıcı tipleri var
 
 indirilen entryler ile kullanıcıların entry sayıları karşılaştırılmalı ki atlanılan entry var mı anlaşılsın
