@@ -1,3 +1,6 @@
+
+- Yeni verisetimiz 631 kullanıcılı.
+
 flaminis --> isimli bir kullanıcı yok
 
 zipirinsan --> isimli bir kullanıcı yok
@@ -64,6 +67,3 @@ zaimoglu --> isimli bir kullanıcı yok
 
 
 
-- Yeni verisetimiz 631 kullanıcılı.
-
-- Duplicate kullanıclar temizlendi.
