@@ -20,7 +20,7 @@ Bu verileri kullanarak paylaştıkları kendilerine ait olan kişilik özellikle
         MANTIKÇI    70         
         BUYURUCU    39         
         TARTIŞMACI  58         
-    DİPLOMAT 206    
+    DİPLOMAT        206    
         SAVUNUCU    48         
         ARABULUCU   64         
         ÖNDER       45         
