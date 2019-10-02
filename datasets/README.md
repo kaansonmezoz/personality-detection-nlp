@@ -1,6 +1,6 @@
 ## Veriseti Özellikleri
 
-#### Sentinels
+* #### Sentinels
 
 | Type     | User Count  | Entry Count  | Word Count      | Character Count  |
 |----------|-------------|--------------|-----------------|------------------|
@@ -11,7 +11,7 @@
 
 
 
-#### Explorers
+* #### Explorers
 
 
 | Type     | User Count  | Entry Count  | Word Count      | Character Count  |
@@ -22,8 +22,7 @@
 | **istp** |    *13*     |    *9,450*   |    *338,811*    |   *2,121,893*    |
 
 
-#### Diplomats
-
+* #### Diplomats
 
 | Type     | User Count  | Entry Count  | Word Count      | Character Count  |
 |----------|-------------|--------------|-----------------|------------------|
@@ -33,7 +32,7 @@
 | **infp** |    *68*     |   *86,643*   |  *3,726,000*    |   *2,4100,166*   |
 
 
-#### Analysts
+* #### Analysts
 
 
 | Type     | User Count  | Entry Count  | Word Count      | Character Count  |
@@ -44,7 +43,7 @@
 | **intp** |    *71*     |   *67,932*   |  *2,934,711*    |   *18,945,522*   |
 
 
-#### Silinen kullanıcılar:
+### Silinen kullanıcılar:
     * snowdiyebiri*
     * synallagmatique
     * flaminis
