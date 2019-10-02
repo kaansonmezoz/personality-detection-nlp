@@ -13,30 +13,8 @@
 Yukarıda bulunan başlıkların altına insanlar internet üzerinden çözmüş oldukları MBTI kişilik testlerini paylaştılar. 
 Bu verileri kullanarak paylaştıkları kendilerine ait olan kişilik özellikleri ve girmiş oldukları entry'ler toplanarak bunlarla etiketli bir veri seti elde etmiş olacağız.
 
-Çözmüş oldukları MBTI testi sonucundan çıkan kişiliklerini belirtmiş;
-
-    ANALİZCİ        239
-        MİMAR       72        
-        MANTIKÇI    70         
-        BUYURUCU    39         
-        TARTIŞMACI  58         
-    DİPLOMAT        206    
-        SAVUNUCU    48         
-        ARABULUCU   64         
-        ÖNDER       45         
-        KAMPANYACI  49         
-    GÖZCÜLER        106
-        LOJİSTİKÇİ  33         
-        SAVUNMACI   26         
-        YÖNETİCİ    35         
-        KONSÜL      12         
-    KAŞİFLER        80
-        BECERİKLİ   13         
-        MACERACI    16         
-        GİRİŞİMCİ   23         
-        EĞLENDİRİCİ 28         
-
-olmak üzere toplam 631 kullanıcılı bir veri setimiz oluşmuş durumdadır.
+Çözmüş oldukları MBTI testi sonucundan çıkan kişiliklerini belirtmiş
+toplam 660 kullanıcılı bir veri setimiz oluşmuş durumdadır.
 
 ## RESOURCES
 
