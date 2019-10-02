@@ -11,116 +11,37 @@
 
 
 
+#### Explorers
 
 
+| Type     | User Count  | Entry Count  | Word Count      | Character Count  |
+|----------|-------------|--------------|-----------------|------------------|
+| **esfp** |    *28*     |   *22,079*   |    *793,793*    |   *3,384,592*    |
+| **estp** |    *23*     |   *14,240*   |    *538,813*    |   *9,253,381*    |
+| **isfp** |    *16*     |   *17,103*   |    *587,420*    |   *3,801,567*    |
+| **istp** |    *13*     |    *9,450*   |    *338,811*    |   *2,121,893*    |
 
 
+#### Diplomats
 
 
+| Type     | User Count  | Entry Count  | Word Count      | Character Count  |
+|----------|-------------|--------------|-----------------|------------------|
+| **enfj** |    *46*     |   *54,205*   |  *1,817,885*    |   *11,917,810*   |
+| **enfp** |    *50*     |   *56,722*   |  *3,071,384*    |   *19,683,151*   |
+| **infj** |    *48*     |   *41,180*   |  *1,837,375*    |   *11,607,291*   |
+| **infp** |    *68*     |   *86,643*   |  *3,726,000*    |   *2,4100,166*   |
 
 
-
-#        Explorers
-
-## esfp
-
-  "wordCount": 793793,
-  "entryCount": 22079,
-  "characterCount": 5039223,
-  "userCount": 28
+#### Analysts
 
 
-## estp
-
-  "wordCount": 538813,
-  "entryCount": 14240,
-  "characterCount": 3384592,
-  "userCount": 23
-
-
-## isfp
-
-  "wordCount": 587420,
-  "entryCount": 17103,
-  "characterCount": 3801567,
-  "userCount": 16
-
-
-## istp
-
-  "wordCount": 338811,
-  "entryCount": 9450,
-  "characterCount": 2121893,
-  "userCount": 13
-
-#        Diplomats
-
-## enfj
-
-  "wordCount": 1817885,
-  "entryCount": 54205,
-  "characterCount": 11917810,
-  "userCount": 46
-
-
-## enfp
-
-  "wordCount": 3071384,
-  "entryCount": 56722,
-  "characterCount": 19683151,
-  "userCount": 50
-
-
-## infj
-
-  "wordCount": 1837375,
-  "entryCount": 41180,
-  "characterCount": 11607291,
-  "userCount": 48
-
-
-## infp
-
-  "wordCount": 3726000,
-  "entryCount": 86643,
-  "characterCount": 24100166,
-  "userCount": 68
-
-#        Analysts
-
-## entj
-
-  "wordCount": 2081245,
-  "entryCount": 46859,
-  "characterCount": 13161073,
-  "userCount": 39
-
-## entp
-
-  "wordCount": 2803450,
-  "entryCount": 63987,
-  "characterCount": 17977038,
-  "userCount": 59
-
-## intj
-
-  "wordCount": 2104194,
-  "entryCount": 50184,
-  "characterCount": 13530641,
-  "userCount": 72
-
-## intp
-
-  "wordCount": 2934711,
-  "entryCount": 67932,
-  "characterCount": 18945522,
-  "userCount": 71
-
-
-
-
-
-
+| Type     | User Count  | Entry Count  | Word Count      | Character Count  |
+|----------|-------------|--------------|-----------------|------------------|
+| **entj** |    *39*     |   *46,859*   |  *2,081,245*    |   *13,161,073*   |
+| **entp** |    *59*     |   *63,987*   |  *2,803,450*    |   *17,977,038*   |
+| **intj** |    *72*     |   *50,184*   |  *2,104,194*    |   *13,530,641*   |
+| **intp** |    *71*     |   *67,932*   |  *2,934,711*    |   *18,945,522*   |
 
 
 #### Silinen kullanıcılar:
