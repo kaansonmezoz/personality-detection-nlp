@@ -1,17 +1,19 @@
-- Silinen kullanıcılar:
-    * snowdiyebiri*
-    * synallagmatique
-    * flaminis
-
 # Veriseti Özellikleri
 
-|                                      Sentinels                                    |
-|-----------| ---------------- | --------------- | ------------- | ---------------- |
-|    Type   |      User Count  |   Entry Count   |  Word Count   |  Character Count | 
-|  **esfj** |       *24*       |    *30,105*     |  *1,067,112*  |    *6,837,943*   |
-|  **estj** |       *44*       |    *30,334*     |  *1,466,861*  |    *9,253,381*   |
-|  **isfj** |       *26*       |    *21,845*     |   *848,315*   |    *5,419,113*   |
-|  **istj** |       *33*       |    *44,969*     |  *1,449,697*  |    *9,282,487*   |
+
+
+|          |             | Sentinels    |                 |                  |
+|----------|-------------|--------------|-----------------|------------------|
+| Type     | User Count  | Entry Count  | Word Count      | Character Count  |
+| **esfj** |    *24*     |   *30,105*   |   *1,067,112*   |   *6,837,943*    |
+| **estj** |    *44*     |   *30,334*   |   *1,466,861*   |   *9,253,381*    |
+| **isfj** |    *26*     |   *21,845*   |    *848,315*    |   *5,419,113*    |
+| **istj** |    *33*     |   *44,969*   |   *1,449,697*   |   *9,282,487*    |
+
+
+
+
+
 
 
 
@@ -114,3 +116,15 @@
   "entryCount": 67932,
   "characterCount": 18945522,
   "userCount": 71
+
+
+
+
+
+
+
+
+#### Silinen kullanıcılar:
+    * snowdiyebiri*
+    * synallagmatique
+    * flaminis
