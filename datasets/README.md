@@ -63,3 +63,6 @@
     * snowdiyebiri*
     * synallagmatique
     * flaminis
+
+#### NOTLAR
+- CSV dosyasındaki özel karakter:    |~|~|     (başında ve sonunda space var.)
