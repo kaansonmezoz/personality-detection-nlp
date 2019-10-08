@@ -1,4 +1,14 @@
+dataset_structured_2.zip'ten sınıflarına göre ayrılmış olan json dosyalarının csv formatına dönüştürülmüş hali all_users.zip'tir.
+Bu dönüşüm esnasında -- spoiler --, # içeren entryler verisetinden çıkarılmış noktalama işaretleri temizlenmiştir.
+-- spoiler -- iceren entrylerin büyük bir çoğunluğu yaşanmış olan bir olayı anlatmasından ötürü ya da girilen metnin büyük bir kısmı olayı anlatmasından ötürü yazara ait herhangi bir yorum ya da davranış sergilememesinin modelin başarı oranına olumsuz etki yaratabilecek olması nedeniyle çıkarılmıştır.
+Aynı şekilde #12341234 (#entry_id) şeklinde olan ifadelerde de daha önceden girilmiş olan bir entry ile ilgili yorum ya da "#1241234  burada bahsettim" tarzında içerikler olmasından ötürü çıkartıldı. 
 
+Çıkartılan entry sayıları :
+  * analysts: 7567 (eski verisetinde analyst sınıfının %3,3'ü csilindi)
+  * diplomats: 5946 (eski verisetinde diplomats sınıfının %2,49'u silindi)
+  * explorers: 1319 (eski verisetinde explorers sınıfının %2,097'i silindi)
+  * sentinels: 3881 (eski verisetinde sentinels sınıfının %3,04'ü silindi)
+  * toplamda: 18713 (eski verisetinde denk düştüğü oran: %2,84)
 
 
 * Veriseti ile ilgili döküman linki
