@@ -1,0 +1,29 @@
+{
+  "name": "eksi-crawler",
+  "version": "1.0.0",
+  "description": "Crawler which retrieves the entries for given users",
+  "main": "eksiCrawler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaansonmezoz/personality-detection-nlp.git"
+  },
+  "keywords": [
+    "crawler",
+    "eksisozluk"
+  ],
+  "author": "kaansonmezoz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaansonmezoz/personality-detection-nlp/issues"
+  },
+  "homepage": "https://github.com/kaansonmezoz/personality-detection-nlp/src/crawler#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "pending-xhr-puppeteer": "^2.1.0",
+    "puppeteer": "^1.20.0",
+    "yargs": "^14.2.0"
+  }
+}
