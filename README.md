@@ -19,3 +19,8 @@ toplam 660 kullanıcılı bir veri setimiz oluşmuş durumdadır.
 ## RESOURCES
 
 - Resources klasörü altında konularla ilgili makaleler, linkler yer almaktadır.
+
+## nltk_data USAGE
+
+- /home/{username} içinde yer almalı.
+
