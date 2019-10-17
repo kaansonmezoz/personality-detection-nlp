@@ -10,6 +10,9 @@ Bu liste güncellendi.
 
 Güncel olmayan veri seti ile yapıldı.
 
+Projenin gerçekleştirildiği 'Datasets' klasörüne linkten erişebilirsin.
+
+https://drive.google.com/drive/folders/1TYVqJ3ZVpQfqjfVnvYD3FSPgIh5VjZ-x
     
     
 
