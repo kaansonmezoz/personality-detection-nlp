@@ -8,6 +8,8 @@ Kullanılan kütüphaneler requirements.txt dosyasına kilitlenmiştir.
 nltk'nın Türkçe için sağladığı stopwords listesinde "53" kelime bulunuyordu. 
 Bu liste güncellendi.  
 
+Güncel olmayan veri seti ile yapıldı.
+
     
     
 
