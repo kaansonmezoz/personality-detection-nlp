@@ -6,7 +6,8 @@
 ## RESULTS ~ Based on Classes
 
 max_features = 100
-
+no preprocessing made
+built-in nltk stop words have been used
 Accuracy : 0.4391385709189453
 
                                         Predicted 
@@ -25,6 +26,8 @@ ACTUAL   | Diplomats |   20189   |   38048   |     0     |     9     |
 
 
 max_features = 1000
+no preprocessing made
+built-in nltk stop words have been used
 Accuracy : 0.4391385709189453
 
 
@@ -51,6 +54,8 @@ kısmıyla alakalı bir durum var
 ## RESULTS ~ Based on Dimensions
 
 max_features = 1000
+no preprocessing made
+built-in nltk stop words have been used
 
             Predicted                        
 
