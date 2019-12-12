@@ -10,6 +10,7 @@ no preprocessing made
 built-in nltk stop words have been used
 Accuracy : 0.4391385709189453
 
+```
                                         Predicted 
          +-----------+-----------+-----------+-----------+-----------+
          |           | Analysts  | Diplomats | Explorers | Sentinels |
@@ -23,7 +24,7 @@ ACTUAL   | Diplomats |   20189   |   38048   |     0     |     9     |
          | Sentinels |   14051   |   16777   |     0     |     73    |
          +-----------------------------------------------------------+
 
-
+```
 
 max_features = 1000
 no preprocessing made
@@ -31,7 +32,7 @@ built-in nltk stop words have been used
 Accuracy : 0.4391385709189453
 
 
-
+```
                                         Predicted 
          +-----------+-----------+-----------+-----------+-----------+
          |           | Analysts  | Diplomats | Explorers | Sentinels |
@@ -45,7 +46,7 @@ ACTUAL   | Diplomats |   20189   |   38048   |     0     |     9     |
          | Sentinels |   14051   |   16777   |     0     |     73    |
          +-----------------------------------------------------------+
 
-
+```
 
 Bu şu anlama geliyor tek başına yeterli değil yani preprocessing
 kısmıyla alakalı bir durum var
@@ -56,6 +57,8 @@ kısmıyla alakalı bir durum var
 max_features = 1000
 no preprocessing made
 built-in nltk stop words have been used
+
+```
 
             Predicted                        
 
@@ -99,4 +102,6 @@ ACTUAL   | P |  62706  | 19379 |              Accuracy : 0.5851321496298058
          +---+---------+-------+
          | J |  46909  | 30787 |
          +---+---------+-------+
+         
+ 
          
