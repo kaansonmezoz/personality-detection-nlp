@@ -1,6 +1,7 @@
 # PRE-REQUIREMENTS
 
 * google drive içerisinde /mbti/all_users.csv yer almalıdır. Ya da ilgili kod kısmını kendinize göre değiştiriniz.
+* stop_words_tr.txt adında Türkçe dili için "stop words" diye adlandırılan kelimelerin yer aldığı bir txt driveda mbti klasörünün altında olmalıdır.
 
 
 ## RESULTS ~ Based on Classes
