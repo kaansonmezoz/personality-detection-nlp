@@ -1,7 +1,7 @@
 const yargs = require('yargs');
 
-yargs.option('file-path', {
-    alias: 'f', 
+yargs.option('input-path', {
+    alias: 'i', 
     describe: 'Text file path where usernames are located',
     type: 'string'
 })
@@ -11,20 +11,23 @@ yargs.option('file-path', {
     type: 'string',
     default: '../entries'
 })
-.option('type', {
-    alias: 't',
-    describe: 'MBTI personality type (i.e INTJ, ESTP ...) ',
-    type: 'string'
+.option('format', {     //TODO: bunu mesela eksiCrawler projesine almak lazım aslında.
+    alias: 'f',
+    describe: 'Output file format',
+    type: 'string',
+    default: 'json',
+    choices: ['json', 'csv'],
+    demandOption: false
 })
 .option('class', {
     alias: 'c',
     describe: 'Class of the MBTI personality type (i.e Diplomat, Analyst, Sentinel, Explorer)',
     type: 'string'
 })
-.demandOption(['file-path', 'type', 'class']);
+.demandOption(['input-path', 'class']);
 
 exports.parameters = {
-    inputFilePath: yargs.argv['file-path'],
+    inputFilePath: yargs.argv['input-path'],
     outputFolderPath: yargs.argv['output'],
     type: yargs.argv['type'],
     typeClass: yargs.argv['class']

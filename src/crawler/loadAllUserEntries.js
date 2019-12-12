@@ -12,6 +12,9 @@ const loadAllEntries = (username) => {
             let url = `https://eksisozluk.com/biri/${encodeURIComponent(username)}`
             
             console.log('Link: ' + url);
+            
+            await page.setDefaultNavigationTimeout(0);             
+            await page.setDefaultTimeout(0);
 
             await page.goto(url, { waitUntil: 'networkidle0'});        
             await pendingXHR.waitForAllXhrFinished();
@@ -30,6 +33,8 @@ const loadAllEntries = (username) => {
                 await pendingXHR.waitForAllXhrFinished();               
                 
                 htmlPage = await page.content();
+                console.log(`Total heap: ${process.memoryUsage().heapTotal}`)
+                console.log(`Used heap: ${process.memoryUsage().heapUsed}`)
                 console.log(`${username} pageCount: ${pageCount} maxPageCount: ${maxPageCount}`)
             }                
             browser.close();        
