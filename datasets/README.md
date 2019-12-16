@@ -16,7 +16,9 @@ Aynı şekilde #12341234 (#entry_id) şeklinde olan ifadelerde de daha önceden 
 
 ## Veriseti Özellikleri
 
-* ### Four Classes
+### Veriseti v1
+
+* #### Four Classes
 
 |   Class        | User Count  | Entry Count  | Word Count      | Character Count  |
 |----------------|-------------|--------------|-----------------|------------------|
@@ -79,6 +81,3 @@ Aynı şekilde #12341234 (#entry_id) şeklinde olan ifadelerde de daha önceden 
     * snowdiyebiri*
     * synallagmatique
     * flaminis
-
-#### NOTLAR
-- CSV dosyasındaki özel karakter:    |~|~|     (başında ve sonunda space var.)
