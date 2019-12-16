@@ -28,13 +28,11 @@ const loadAllEntries = (username) => {
             const maxEntryPerLoad = 10;
             const maxPageCount = (entryCount * 1.0) / maxEntryPerLoad;        
             
-            for(let pageCount = 1; pageCount < maxPageCount; pageCount++){
+            for(let pageCount = 0; pageCount < maxPageCount; pageCount++){
                 await page.click('a.load-more-entries');
                 await pendingXHR.waitForAllXhrFinished();               
                 
                 htmlPage = await page.content();
-                console.log(`Total heap: ${process.memoryUsage().heapTotal}`)
-                console.log(`Used heap: ${process.memoryUsage().heapUsed}`)
                 console.log(`${username} pageCount: ${pageCount} maxPageCount: ${maxPageCount}`)
             }                
             browser.close();        
