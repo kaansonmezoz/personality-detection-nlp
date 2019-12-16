@@ -1,0 +1,711 @@
+{
+  "username": "wang chongun zamansiz devesi",
+  "userId": "1700102",
+  "characterCount": 30874,
+  "wordCount": 4998,
+  "entryCount": 100,
+  "type": "INTP",
+  "typeClass": "analysts",
+  "entries": [
+    {
+      "entryTitle": "hatay denince akla gelenler",
+      "entryTitleId": "3218187",
+      "entryId": "84946460",
+      "entry": "güzel bir soslu tavuk dönerin arkasından enfes bir künefe",
+      "entryDate": "30.12.2018 20:46"
+    },
+    {
+      "entryTitle": "serdar aziz",
+      "entryTitleId": "2132087",
+      "entryId": "84884540",
+      "entry": "armaya adanmis olarak gorulen oyuncalardan biri",
+      "entryDate": "28.12.2018 22:50"
+    },
+    {
+      "entryTitle": "veda ederken 2018'e bir not bırakmak",
+      "entryTitleId": "5885862",
+      "entryId": "84884459",
+      "entry": "bir ruzgardi esti ve gecti tum dunya icin",
+      "entryDate": "28.12.2018 22:48"
+    },
+    {
+      "entryTitle": "mooning",
+      "entryTitleId": "565174",
+      "entryId": "80415741",
+      "entry": "kripto paraların fiyatlarının astronomik seviyelere yükseldiği durumda kullanılır",
+      "entryDate": "19.08.2018 01:52"
+    },
+    {
+      "entryTitle": "madencilik zorluğu",
+      "entryTitleId": "5760630",
+      "entryId": "80415731",
+      "entry": "mining difficulty  madencilik zorluğu   bu sayı  yeni bir bloğun hash işleminin ne kadar zor olduğunu belirler  bir işlem bloğunun karmasının belirli bir sayısal bölümünde izin verilen azami sayı ile ilişkilidir  rakam ne kadar düşükse  ona uyan bir karma değer üretmek o kadar zor olur",
+      "entryDate": "19.08.2018 01:51"
+    },
+    {
+      "entryTitle": "margin trading",
+      "entryTitleId": "1177553",
+      "entryId": "80305963",
+      "entry": "margin trading  marj ticareti  mevcut kripto paralarınızı riske atarak pozisyonunuzun yoğunluğunu ‘artırmak’ bu işlem çok risklidir  deneyimli kişilerce kullanılması tavsiye edilir",
+      "entryDate": "15.08.2018 21:56"
+    },
+    {
+      "entryTitle": "macd",
+      "entryTitleId": "131652",
+      "entryId": "80305949",
+      "entry": "moving average convergence divergence  macd   hareketli ortalama yakınsama uzaksamaiki hareketli fiyat ortalamaları arasındaki ilişkiyi gösteren bir eğilim göstergesi",
+      "entryDate": "15.08.2018 21:55"
+    },
+    {
+      "entryTitle": "ledger nano s",
+      "entryTitleId": "5399616",
+      "entryId": "80231232",
+      "entry": "ledger nano s kripto para türünden varlıkları depolamak ve dijital ödemeleri sağlamak için sağlam güvenlik özelliklerine dayanan cüzdan  bitcoin  ethereum ve altkoinlerde kullanılabilir  herhangi bir bilgisayara  usb  bağlanır ve yan düğmelerindeki tek bir dokunuşla her işlemi iki kez kontrol etmek ve doğrulamak için güvenli bir oled ekranı yerleştirir",
+      "entryDate": "13.08.2018 21:20"
+    },
+    {
+      "entryTitle": "lambo",
+      "entryTitleId": "349117",
+      "entryId": "80231214",
+      "entry": "lamborghini kısaltması  bitcoin den zengin olununca alınacağı hayal edilen araba",
+      "entryDate": "13.08.2018 21:19"
+    },
+    {
+      "entryTitle": "hodl",
+      "entryTitleId": "5414773",
+      "entryId": "80198789",
+      "entry": "hodl  bir kripto parayı al ve tut anlamına gelir yıllar öncesinde bir bitcoin forumundaki sarhoş birinin yazım hatası ile “beklet  hold” yerine yazım hatası ile doğdu hold on for dear life  hodl  güzel hayatım için tutuntemel olarak para kazanmak için elinde tut ve uzun süre sonra satmak uygulaması",
+      "entryDate": "12.08.2018 23:15"
+    },
+    {
+      "entryTitle": "hashrate",
+      "entryTitleId": "5754005",
+      "entryId": "80198654",
+      "entry": "hashrate  bir blok için bulunma hızı ve ilgili matematik sorununun çözülme hızıdır  yüksek hashrate için bazı araçlar oluşturulmuştur  asıc türü makinalar bu kategoride değerlendirilmektedir",
+      "entryDate": "12.08.2018 23:12"
+    },
+    {
+      "entryTitle": "going long",
+      "entryTitleId": "5751928",
+      "entryId": "80137928",
+      "entry": "uzun vadeli pozisyon  fiyat artışına dayanan strateji",
+      "entryDate": "11.08.2018 01:14"
+    },
+    {
+      "entryTitle": "gigahashes",
+      "entryTitleId": "5751926",
+      "entryId": "80137912",
+      "entry": "gigahashes sec  saniyede ölçülen hash miktarı  1 milyar hash",
+      "entryDate": "11.08.2018 01:13"
+    },
+    {
+      "entryTitle": "fincen",
+      "entryTitleId": "4658076",
+      "entryId": "80087311",
+      "entry": "the financial crimes enforcement network  fincen   finansal suçları engelleme ağıfincen  abd hazinesine bağlı departman olarak çalışan finansal suçları engelleme ağı’nı ifade eder  görevi bir kuruluş  misyonunu finansal sistemi yasadışı olarak kullanmaktan ve kara para aklamasından korumak ve finansal istihbarat ve stratejik kullanımın toplanması  analizi ve yaygınlaştırılması yoluyla ulusal güvenliği teşvik etmek olarak tanımlıyor  finansal otoritelerin fincen  abd’de bitcoin ticareti yapan borsalara düzenlemeler getiren birincil grup olmuştur",
+      "entryDate": "09.08.2018 22:13"
+    },
+    {
+      "entryTitle": "fiat money",
+      "entryTitleId": "471103",
+      "entryId": "80087276",
+      "entry": "herhangi bir devlet tarafından çıkarılmış “fiziksel kağıt para birimi” ni ifade eder  ana özellikleri düzenlenmiş ve merkezileştirilmiş olmalarıdır  abd doları  türk lirası gibi tüm para birimlerini ifade eder",
+      "entryDate": "09.08.2018 22:12"
+    },
+    {
+      "entryTitle": "faucet",
+      "entryTitleId": "1012944",
+      "entryId": "80087248",
+      "entry": "faucet ‘musluk’  bir altcoin’i ilk başlattıklarında insanları bu altcoin’e ilgi duymaya ve madenciliğe başlamaya teşvik etmek için önceden belirlenmiş sayıda token hazırlanır ve ücretsiz olarak dağıtılır",
+      "entryDate": "09.08.2018 22:11"
+    },
+    {
+      "entryTitle": "exchange",
+      "entryTitleId": "56125",
+      "entryId": "80087189",
+      "entry": "exchange  borsa   kripto para birimlerini alıp satabileceğiniz platform sağlayıcıları ifade eder tipik olarak  kripto para borsaları geleneksel para birimleri ile alışveriş yapmak için kullanılır  hem geleneksel paralarla hemde kripto para birimleri ile alışveriş yapmanız mümkün olur  ancak tüm borsalarda bütün kripto paralar bulunmazedit   örnekler  bittrex  poloniex  binance  vs ",
+      "entryDate": "09.08.2018 22:10 ~ 22:11"
+    },
+    {
+      "entryTitle": "ethereum sanal makinesi",
+      "entryTitleId": "5749708",
+      "entryId": "80087169",
+      "entry": "ethereum virtual machine  evm   ethereum sanal makinesiherkesin kullandığı evm bayt kodunu çalıştırmasına izin veren  turing tam bir sanal makinedir  her ethereum düğümü  blockchainde uzlaşma sağlamak için evm üzerinde çalışır",
+      "entryDate": "09.08.2018 22:09"
+    },
+    {
+      "entryTitle": "cryptographic hash function",
+      "entryTitleId": "5748400",
+      "entryId": "80048198",
+      "entry": "değişken boyutlu işlem girişinden sabit büyüklükte ve benzersiz bir karma değer üretimi  sha 256 hesaplama algoritması bir cryptographic hash örneğidir",
+      "entryDate": "08.08.2018 20:47"
+    },
+    {
+      "entryTitle": "dip fiyat",
+      "entryTitleId": "5748398",
+      "entryId": "80048167",
+      "entry": "bir coin için belirlediğiniz bir zaman dilimindeki en düşük fiyattır",
+      "entryDate": "08.08.2018 20:46"
+    },
+    {
+      "entryTitle": "consensus",
+      "entryTitleId": "42874",
+      "entryId": "80048149",
+      "entry": "blockchain deki tüm katılımcıların işlemlerin geçerliliğini kabul edip  defterlerin birbirlerinin tam kopyaları olduğunu kabul edince fikir birliği elde edilir  bu duruma consensus denir",
+      "entryDate": "08.08.2018 20:46"
+    },
+    {
+      "entryTitle": "confirmation",
+      "entryTitleId": "76693",
+      "entryId": "80048111",
+      "entry": "bir bitcoin işleminin başarılı bir şekilde hash edilmesi ve işlemin blockchain‘e eklenmesi",
+      "entryDate": "08.08.2018 20:44"
+    },
+    {
+      "entryTitle": "colored coins",
+      "entryTitleId": "5748394",
+      "entryId": "80048039",
+      "entry": "colored coins  renkli koinler  bitcoin kullanıcıları için ek özellikler vermesine olanak tanıyan  bitcoin için önerilen bir eklenti işlevi",
+      "entryDate": "08.08.2018 20:42"
+    },
+    {
+      "entryTitle": "coinbase",
+      "entryTitleId": "3835112",
+      "entryId": "80048006",
+      "entry": "bitcoin üretimi işleminde kullanılan girdi için verilen bir isim",
+      "entryDate": "08.08.2018 20:41"
+    },
+    {
+      "entryTitle": "ath",
+      "entryTitleId": "299788",
+      "entryId": "80017144",
+      "entry": "all time high   bir coin in ilk çıkış tarihinden itibaren tüm zamanlarda ki en yüksek fiyatı",
+      "entryDate": "07.08.2018 23:31"
+    },
+    {
+      "entryTitle": "asic",
+      "entryTitleId": "123385",
+      "entryId": "80017073",
+      "entry": "asıc  application specific ıntegrated circuit  uygulamaya özel entegre devrenin kısaltmasıdır  bu tek görevli silikon çipler  sha 256 karma problemlerini işliyor  işlemleri doğruluyor ve yeni bit eşlenikleri çıkarmak için kullanılıyor",
+      "entryDate": "07.08.2018 23:29"
+    },
+    {
+      "entryTitle": "asic miner",
+      "entryTitleId": "4587102",
+      "entryId": "80017020",
+      "entry": "asıc madenciliği ise asıc tür aygıtlar ile yapılan madencilik tipidir  bir ethernet kablosu veya kablosuz bağlantı kullanılarak doğrudan bir bilgisayara veya bir ağa bağlanabilir",
+      "entryDate": "07.08.2018 23:28"
+    },
+    {
+      "entryTitle": "airdrop",
+      "entryTitleId": "2691562",
+      "entryId": "80016886",
+      "entry": "herhangi fiat para yatırmadan bedava paralar alabileceğinizi biliyor musunuz  token vermek için kullanılan bu yöntem airdrop olarak adlandırılır  amaç bazı tokenleri dağıtmak ve bir kullanıcı tabanına sahip olmaktır",
+      "entryDate": "07.08.2018 23:25"
+    },
+    {
+      "entryTitle": "adress",
+      "entryTitleId": "1592025",
+      "entryId": "80016858",
+      "entry": "bitcoin 1n6mtwcdgshsgjztri3zmznjekxfjavaxwethereum 0x17deeffa7e6de8786b4fe2caa7592e5bcbe84b56",
+      "entryDate": "07.08.2018 23:25"
+    },
+    {
+      "entryTitle": "webcoin",
+      "entryTitleId": "5744846",
+      "entryId": "79936590",
+      "entry": "son 24 satte  86 son bir haftada  282 artis gostermis ve artmaya devam ediyor",
+      "entryDate": "05.08.2018 20:06"
+    },
+    {
+      "entryTitle": "artex coin",
+      "entryTitleId": "5744843",
+      "entryId": "79936523",
+      "entry": "son 24 saatte  812 lik bir artis gostermis bir token",
+      "entryDate": "05.08.2018 20:04"
+    },
+    {
+      "entryTitle": "augur",
+      "entryTitleId": "114552",
+      "entryId": "79936360",
+      "entry": "sadece 11 milyon adet ve market capi anlik olarak  317 760 817 olan token",
+      "entryDate": "05.08.2018 19:57"
+    },
+    {
+      "entryTitle": "nimiq exchange",
+      "entryTitleId": "5744837",
+      "entryId": "79936293",
+      "entry": "sadece 10 500 000 tane olan gunluk hacmi  85 000 olan kripto para",
+      "entryDate": "05.08.2018 19:55"
+    },
+    {
+      "entryTitle": "inpay",
+      "entryTitleId": "3681808",
+      "entryId": "79936190",
+      "entry": "10 000 000 adet olan sitesi kapanmis kripto para",
+      "entryDate": "05.08.2018 19:52"
+    },
+    {
+      "entryTitle": "uquid coin",
+      "entryTitleId": "5744835",
+      "entryId": "79936103",
+      "entry": "suan sadece 10milyon adet bulununan bir kripto para  toplamda 40milyon adet hedefleniyor",
+      "entryDate": "05.08.2018 19:48"
+    },
+    {
+      "entryTitle": "leocoin",
+      "entryTitleId": "5743900",
+      "entryId": "79904276",
+      "entry": "bir zamanlar hacmi 50 milyon dolar olsada simdilerde unutulmaya baslamis kripto para birimi",
+      "entryDate": "04.08.2018 18:43"
+    },
+    {
+      "entryTitle": "mainframe",
+      "entryTitleId": "51160",
+      "entryId": "79904243",
+      "entry": "iletisim platformu olmasina ragmen kendisine ait bir kripto para birimi var",
+      "entryDate": "04.08.2018 18:41"
+    },
+    {
+      "entryTitle": "daex",
+      "entryTitleId": "5743894",
+      "entryId": "79904151",
+      "entry": "hakkinda turkce kaynak bulunmayan kripto para birimi",
+      "entryDate": "04.08.2018 18:37"
+    },
+    {
+      "entryTitle": "egretia",
+      "entryTitleId": "5743892",
+      "entryId": "79904106",
+      "entry": "kurucularinin arasinda oyun gelistiricisi ross przybylski da olan kripto para",
+      "entryDate": "04.08.2018 18:35"
+    },
+    {
+      "entryTitle": "swftcoin",
+      "entryTitleId": "5743890",
+      "entryId": "79903997",
+      "entry": "bir zamanlar gunluk 50m dolar hacmi olan kripto para birimi",
+      "entryDate": "04.08.2018 18:31"
+    },
+    {
+      "entryTitle": "bitcoin",
+      "entryTitleId": "2462174",
+      "entryId": "79546394",
+      "entry": "tariiiiiiihin en buyuk boga kosusunun basinda olabiliriz  bitcoin  8500 dokundu",
+      "entryDate": "25.07.2018 11:53"
+    },
+    {
+      "entryTitle": "boğa piyasası",
+      "entryTitleId": "105160",
+      "entryId": "79343663",
+      "entry": "finansal piyasalarda sıklıkla karşımıza çıkan boğa piyasası ‘bullish market’ teriminin anlamı piyasanın yükseliş trendinde olduğudur  boğa piyasası denildiğinde fiyatların gelecek dönemde iyimser prtamda seyredeceği ve yatırımlarına alıma geçeceği anlaşılabilir",
+      "entryDate": "19.07.2018 16:36"
+    },
+    {
+      "entryTitle": "ethereum",
+      "entryTitleId": "4206709",
+      "entryId": "79343500",
+      "entry": "şu sıralarda ethereum son 24 saatte yüzde 5 5’lik bir gerileme ile 475 dolardan işlem görüyor  yüzde 0 13’le pozitif bölgede yer alan bitcoin ise 7335 dolarda",
+      "entryDate": "19.07.2018 16:31"
+    },
+    {
+      "entryTitle": "tron",
+      "entryTitleId": "67638",
+      "entryId": "79238133",
+      "entry": "tronix  trx   tron platformunu çalıştıran kripto paradır  tron diğer platfromlardan farklı olarak kendi haricindeki kripto para birimlerini de destekler  neo ve ethereum un benzeri olan bir sistem kurmayı amaçlayan singapur merkezli bir projedir   ",
+      "entryDate": "16.07.2018 17:58"
+    },
+    {
+      "entryTitle": "eoscoin",
+      "entryTitleId": "5724716",
+      "entryId": "79238024",
+      "entry": "temmuz 2017 de piyasaya çıkmıştır  eos blockchain ağı  dan larimer’ın önderliğini yaptığı ekip tarafından tasarlanan bir ağdır  kripto parayı benzersiz kılan özellik ise  eos’un herhangi bir madencilik çiftliğine ihtiyaç duymamasıdır   ",
+      "entryDate": "16.07.2018 17:55"
+    },
+    {
+      "entryTitle": "nxt",
+      "entryTitleId": "1574702",
+      "entryId": "79237927",
+      "entry": "nxt  merkezi olmayan ikinci nesil açık  şeffaf  kaynak kodlu bir blok zincir  blockchain  plartformudur şuanda 0 00001342 satoshiden işlem görmektedir",
+      "entryDate": "16.07.2018 17:52"
+    },
+    {
+      "entryTitle": "wavescoin",
+      "entryTitleId": "5724704",
+      "entryId": "79237803",
+      "entry": "herkesin kendi tokenini yaratabileceği bir blok zinciri platformudur",
+      "entryDate": "16.07.2018 17:47"
+    },
+    {
+      "entryTitle": "dogecoin",
+      "entryTitleId": "4142281",
+      "entryId": "79237739",
+      "entry": "dogecoin  dünya çapında shiba ınus tarafından tercih edilen  açık kaynaklı bir eşler arası dijital para birimidir",
+      "entryDate": "16.07.2018 17:45"
+    },
+    {
+      "entryTitle": "network marketing",
+      "entryTitleId": "466682",
+      "entryId": "79229898",
+      "entry": "ülkede yanlış tanıtılan  aslında güzel bir pasif gelir kaynağı olan",
+      "entryDate": "16.07.2018 13:38"
+    },
+    {
+      "entryTitle": "maçka doğa kafe'de kaynar su ile öldürülen kedi",
+      "entryTitleId": "5509042",
+      "entryId": "72463256",
+      "entry": "lütfen linç etmeden önce oku  delinin biri kuyuya taş atmış  40 akıllı çıkaramamış sosyal medyanın asılsız bir iddia üstüne nasıl bir linç kültürü oluşturduğunu  özellikle de kendini duyarlı  sola yakın  modern bir hayat süren bizim gibi insanlar içinde bile bu kültürün devam ettiğini gösteren başlık eskiden o kafede çalışan bir arkadaşımla bu olayı duyunca yanlarına gittik  durum nedir  bir gerçeklik payı var mı diye  açıkçası beraber gittiğim arkadaşım dünyada tanıdığım en naif insan olabilir ve işletmeci mehmet abi yi görseniz  hayata bakış açısını gözlerinden okursunuz  bu insanlar ağaç kesildiği için geziye giden  bir kolunda che guevara dövmesi olan  biraz para kazanıp gelecekte bir çay bahçesi ya da bar açarız dedikten sonra açan  senin benim gibi doğasever insansever hayvansever biri  keza hem eşi hem de anneleri de oradaydı  inanın hepsi şu an çok üzgün ve kendilerine atılan bu iftira yüzünden savcılık kapılarına gidecekler  yarın da çay bahçesini kapatacaklarmış  peki neden iftira dedim  orada bir kedi kaynar suyla can çekerek ölecek ve hiçbir fotoğraf ya da video olmayacak  gösterilen fotoğrafa bir bakar mısınız lütfen  ölü bir kedi ve çay bahçesinin fotoğrafı  birbirleriyle alakasız   eğer hâlâ iddianın kesin doğru olduğunu düşünüyorsanız şöyle diyeyim  bu insanlar kendi kafelerinde kedi besleyen insanlar  bir kediyi neden öldürsünler  hem de kaynar suyla çok şükür duyar kastınız  iddianın doğruluk payı bile yok derece az iken  batarlar  geberirler diyen insanlar şu işletmeye gitse de söylese keşke  boş yere bu güzel insanları üzdünüz ya ne desem müstehak şu duyarcı sürüye ",
+      "entryDate": "29.11.2017 02:46 ~ 02:53"
+    },
+    {
+      "entryTitle": "en iyi internet tarayıcısı",
+      "entryTitleId": "4034047",
+      "entryId": "71967588",
+      "entry": "yılların chrome kullanıcısıyım  yazılanlara bakıp bir de opera yı kurayım  nasıl bir şeymiş dedim  cidden ram i az tüketmesi ve pratikliğiyle beni mest etmiştir chrome yazmayan marhfgh falan lafına başta  kesinlikle evet demiştim  ama başka bir şey kullanmadan da bilinemezmiş ",
+      "entryDate": "08.11.2017 11:34 ~ 13:30"
+    },
+    {
+      "entryTitle": "stranger things",
+      "entryTitleId": "1276650",
+      "entryId": "71905739",
+      "entry": "spotify ın oluşturduğu bu çalma listesini öylesine açmıştım ve dinlerken bu güzel sürprizle karşılaştım  dizi müziklerini dinlemek isteyenleri düşünüp bu temayı kullanmaları çok hoş olmuş ",
+      "entryDate": "05.11.2017 21:56"
+    },
+    {
+      "entryTitle": "arabadan sarkan çıplak kızın uçup gitmesi",
+      "entryTitleId": "5471876",
+      "entryId": "71375559",
+      "entry": "rusya sektörü büyük bir değer kaybetmiştir carpe diem",
+      "entryDate": "14.10.2017 15:32"
+    },
+    {
+      "entryTitle": "sennheiser mx 375",
+      "entryTitleId": "3516719",
+      "entryId": "71317953",
+      "entry": "elbette kötü yönlerini bulabilecek insanlar vardır da tüm özellikleri kötü demek de fazla absürt  bence yeterince kuvvetli basları olan ve ses kalitesi de audiophile değilseniz gayet iyi olan kulak içi kulaklık  ses derinliği  ve özellikle fazla yalıtım isteniyorsa kulak üstü kulaklıklar tercih etmelisiniz  türkiye de  kendi kategorisinde ve o fiyat aralığında hâlâ en iyisi ",
+      "entryDate": "11.10.2017 16:53 ~ 16:55"
+    },
+    {
+      "entryTitle": "filiz şahenk",
+      "entryTitleId": "1347535",
+      "entryId": "71167838",
+      "entry": "bu kadar zengin bir kadın olmasına rağmen etrafta çok az fotoğrafının bulunması garip geliyor bana  ekşi de bile iki sayfa entry var kendisi hakkında  acaba bu zenginler  bu kadar gizli hayatı nasıl yaşıyorlar diye düşünüyorum  arkadaş hiç mi istiklal de kalabalığın içinde kedinizi kaybetmediniz  beşiktaş ya da kadıköy de hiç mi arkadaşlarınızla eğlenmediniz  mesela  hepimizin sosyal medya hesapları olur ya  işte merak ediyorum  bu insanların sosyal medya hesapları  facebook  instagram  yok mu yoksa şifreli mi birbirleriyle tanış oluyorlar  hayat enteresan ya  senin beyaz yakalı mühendis olup alabileceğin tüm maaşı  bunlar belki de özel jetleriyle orta çaplı bir gezi de harcıyorlar  neyse pek kıskanmama ve oraya varmak için çabalamama da gerek yok aslında  değer mi diyorum kendime  yok be  bunların seviyesine çıkmak için verilebilecek emek  vakit ve huzur yerine intihar ederim daha iyi ",
+      "entryDate": "03.10.2017 23:01"
+    },
+    {
+      "entryTitle": "melih gökçek'in görevden alınması",
+      "entryTitleId": "2386135",
+      "entryId": "71161346",
+      "entry": "gelen gideni aratmasın yeter ki  ",
+      "entryDate": "03.10.2017 16:48"
+    },
+    {
+      "entryTitle": "b1916'nın siber suç işlemesi",
+      "entryTitleId": "5464041",
+      "entryId": "71121013",
+      "entry": "gerçeği söylediğini nereden bilebilirsin  kurgu bir hikaye olmadığına dair söylemden başka bir şey yok ",
+      "entryDate": "01.10.2017 16:06"
+    },
+    {
+      "entryTitle": "şu anda çalan şarkı",
+      "entryTitleId": "2405586",
+      "entryId": "71083165",
+      "entry": "famous blue raincoat  leonard cohen",
+      "entryDate": "29.09.2017 15:57 ~ 15:58"
+    },
+    {
+      "entryTitle": "sennheiser",
+      "entryTitleId": "449237",
+      "entryId": "71082904",
+      "entry": " türkiye de en memnun kaldığın elektronik cihaz satan marka ne   deseler birinciliği kaparlar  net  kendilerinden 3 kere kulaklık aldım  öğrenci ve orta halli bir aileden geldiğimden en ucuz  hasar paketli ürünlerini alabildim şimdiye kadar  2 yıl önce aldığım mx 371 in sağ tarafından az ses gelmeye başlayınca bircom a kendi elimle götürdüm  5 dakika geçmeden yeni bir kulaklıkla değiştireceklerini fakat mx 371 miladını doldurduğu için mx 375 vereceklerini söylediler  ne yalan söyliyim çok mutlu oldum  türkiye de düzgün çalışan ender garanti sağlayıcılarından kendileri  bugün de hd 218i isimli ürünleri elime geçti  2 gün önce sipariş vermiştim  benim için gayet yeterli bir kulaklık şu an  apple bir ürünüm olmasa da android ve bilgisayarda düzgünce çalışıyor fakat mikrofon ve ekledikleri zımbırtı çalışmıyor  olsun be  ses aynı kalitede çıktıktan sonra  biz yokluktan geldik  alışığız bunlara    ilerde de ucuz 2  el sağlam bir iphone 7 bulduk mu tamam  ",
+      "entryDate": "29.09.2017 15:40 ~ 16:19"
+    },
+    {
+      "entryTitle": "ibrahim özkol",
+      "entryTitleId": "5322180",
+      "entryId": "71023395",
+      "entry": "aselsan yönetim kurulu başkanı  ayrıca uubf deki aerospace structures dersini de vermekte  kesinlikle çok bilgilidir sonuçta profesör olmuş  ama ders slaytlarını ninova  itü lü öğrencilerin kullandığı  ders kaynaklarını  ödevlerini sağladıkları site  ya koymayarak saçmalamıştır  internetten ücretsiz ulaşabileceğimiz halde  gitmiş kırtasiyeden alın demiş  50 öğrenci ayrı ayrı alsa 1500 lira eder  umarım aselsan ın başında da böyle verimsiz şeyler yapmıyordur edit  notlandırması gayet iyi adam gibi adam ",
+      "entryDate": "26.09.2017 16:59 ~ 21.01.2018 05:09"
+    },
+    {
+      "entryTitle": "16personalities.com",
+      "entryTitleId": "5123196",
+      "entryId": "71009598",
+      "entry": "mantıklı sonuçları olan bir kişilik testi  kişilik tipiniz “mantıkçı” ıntp t “dünden öğrenin  bugün için yaşayın ve yarın için umut edin  önemli olan  sorgulamaktan vazgeçmemenizdir ” albert einsteinmantıkçı kişilik tipi oldukça az bulunur cinstendir ve nüfusun sadece yüzde üçünü oluştururlar  kaldı ki bu onlar için iyi bir şeydir  çünkü onları “sıradan” oldukları düşüncesinden daha mutsuz edebilecek bir şey yoktur  mantıkçılar mucitlikleri  yaratıcılıkları  özgün bakış açıları ve güçlü bilgi birikimleriyle gurur duyarlar  genellikle filozof  düşünür veya hayalperest bir profesör olarak bilinen mantıkçılar  tarih boyunca birçok bilimsel keşfin arkasındaki isimler olmuşlardır ",
+      "entryDate": "25.09.2017 21:48"
+    },
+    {
+      "entryTitle": "parlak beyinlerimizi batıya kaptırıyoruz",
+      "entryTitleId": "5450716",
+      "entryId": "70732150",
+      "entry": "düzeltme gerekli   parlak beyinlerimizi batıya itiyoruz  ",
+      "entryDate": "11.09.2017 09:05"
+    },
+    {
+      "entryTitle": "epikouros",
+      "entryTitleId": "927257",
+      "entryId": "70109193",
+      "entry": "bir parçası günümüze ulaşabilmiş olan son mektuplarından birinde ölümle pençeleşmekte olan epikuros  bir arkadaşına şöyle yazar    sana hayatımın çok mutlu  aynı zamanda da en son gününde yazıyorum  böbreklerim ve bağırsaklarım yüzünden öyle bir ağrı çekiyorum ki hiçbir şey daha fazla şiddetlendiremez bunu  ama sohbetlerimizi hatırladıkça duyduğum sevinç bunu unutturuyor  kaynak  mutluluğun en güzel tarihi  comte sponville a   delumeau j   farge a ",
+      "entryDate": "11.08.2017 03:33"
+    },
+    {
+      "entryTitle": "ben kemal kılıçdaroğlu ve tekrar aranızdayım",
+      "entryTitleId": "4950962",
+      "entryId": "69597108",
+      "entry": "gecenin dördü  günahlarınız için kapı aralayan bu saatlerde  kılıçdar ın sayfasına gelip bir şeyler karalamak  olum manyak mısınız    insan beyninin en üretken olduğu  fantezilerimizin level kastığı bir saatte n apcanız siyaseti  chp yi ",
+      "entryDate": "19.07.2017 04:28 ~ 04:30"
+    },
+    {
+      "entryTitle": "18 temmuz 2017 istanbul yağmuru",
+      "entryTitleId": "5412958",
+      "entryId": "69590213",
+      "entry": "18 temmuz şehitler yağmuru  ",
+      "entryDate": "18.07.2017 21:49"
+    },
+    {
+      "entryTitle": "yalnızlık",
+      "entryTitleId": "32965",
+      "entryId": "68507114",
+      "entry": "iki şey var  yaşam ve ölüm yaşam yalnızlıkla geçen kısa bir süre ölüm yoklukla geçen uzun bir süre ",
+      "entryDate": "30.05.2017 20:07"
+    },
+    {
+      "entryTitle": "yaşamak",
+      "entryTitleId": "31931",
+      "entryId": "68476783",
+      "entry": "s ktiğimin modern çağında ben neden doğdum ki dedin bir süre sonra hayal etmekten çok düşündüğünü farkettin  geleceği  parayı  karıyı  kocayı   riyâkarlıklarla dolu bir hayattan pişmanlık duyduğunu farkedince bir şeylerin değişmesini istedin değişimi istiyorsan  değişimin kendisi ol diyen sözü de duydun ama değişebilmek için hayal etmek gerekirdi dedin kendine hayal edemiyorsan çocukluk hayallerini hatırlayabildin yok hayır  kaymakam olucam  piyango bana çıkacak ve zengin olacağım hayalleri değil  şehrine baba gibi üstten bakan kışları karla kaplı tepesine çıkmak istediğin dağdan bahsediyorum biraz da fantastik hayaller tabii çocuktun  gençtin  sürekli yaşlanıyorsun  yaşlayorsu  yaşlanıyors  yaşlanıyor  yaşlanıyo  yaşlanıy  yaşlanı   yaşlan dın  olacaktı bir gün ve bugün ve belki de şimdiii ölecektin para idi gereken  mutluluk  bir prens ya da prenses  sağlık hep onla sağlanırdı oysa ki ama yoktu ki bir çalışmaya başlasan üniversite bittikten sonra  kazancın 10 bin de olsa yıllık 120 bin olurdu ve sadece düğün için harcaman gereken 80 bin di  evi de var idi  çocukları da ultra zengin olmadığın sürece köle olduğunu biliyordun olsan da arzunun kölesiydin sonuçta sen bir köleydin hep acı çekmeye mahkum idin sosyal medya da hep bir şeyleri kıskanman gerekli idi televizyonda s2k haber kanallarında hep korku var idi yılda bir kez accık ta olsa iznin var idi s kmek ve sevilmeli o 4 s kuralı bir gerçek idi dr  house un  everybody lies  sözü bir gerçek idi yaşamak ve ölmek vardı sadece belki sadece s2k bir simülasyondu dedikleri gibi belki de öldükten sonra sadece çürümek vardı  neden  dedin yyayaşyaşıyaşıyyaşıyoyaşıyoryaşıyorsyaşıyorsuyaşıyorsun üç üç üç nokta",
+      "entryDate": "29.05.2017 12:35"
+    },
+    {
+      "entryTitle": "tek başına kamp yapmak",
+      "entryTitleId": "5162718",
+      "entryId": "68379829",
+      "entry": "gayet huzurlu bir eylem günde 12 saat uyuyan  kalan zamanının çoğunda oyun oynayıp yurtta yatan bir insanım  özellikle son 8 aydır böyleyim  insan o kadar uyuyup bir nevi ölüm simülasyonunu gerçekleştirirken bunalıma da giriyor ister istemez  melankoliden  bunalımdan depresyondan uzaklaşmak isteyenlere tavsiyem  siktir olun gidin tek başına otostopla kamp atarak gezmenin huzurunu ve macera duygusunu sadece mastürbasyon ve sonrasındaki yakalanma korkusuyla oluşan macera ile karşılaştırabilirim ki otostop kamp her türlü üstün gelir ülkenin tüm bölgelerini kamp ve otostop ile hem tek başıma hem de 2 ve 3 lü arkadaş gruplarıyla gezebildim  tek ve çok arasında birçok fark olsa da  eğer kimse sizle gelmiyorsa veya sadece yalnız kalmak istiyorsanız korkmayın ve sadece çıkın not  tam bir üşengecim  uyanmaya  sıçmaya  kız arkadaş bulmaya  geceleri eğlenmeye  yeni insanlar tanıyıp kendimi tekrar tekrar onlara tanıtmaya  sosyal medyada profil kasıp ego yükseltmeye  para kazanmaya ve harcamaya   sadece beş şey var üşenmediğim  otostop kamp bisiklet yolculuğu  sevgimi paylaşabilmek  acıyı bal eylemek  uyumak  vee dinlemek ",
+      "entryDate": "24.05.2017 16:32"
+    },
+    {
+      "entryTitle": "22 mayıs 2017 itü vadi yurtlarına saldırı",
+      "entryTitleId": "5372930",
+      "entryId": "68332817",
+      "entry": "gündeme gelmesi için oluşturulan bu başlığa gelen  siz de onları linç etseydiniz  kafası  lan zaten çocuklar o piçleri 2  kattan döve döve aşağıya kadar indirmişler  üniversitenin güvenliği varoluş sebebini gerçekleştirmek yerine öğrencileri sürekli olarak her olayda tehdit yurttan uzaklaştırma  soruşturma açma falan  ettiğinden gariplerim daha fazla üstüne gidemiyor bu piçlerin ",
+      "entryDate": "22.05.2017 17:57"
+    },
+    {
+      "entryTitle": "abdullah gül",
+      "entryTitleId": "72865",
+      "entryId": "67750390",
+      "entry": "atatürk ün fethi okyar a parti kurdurması geldi aklıma  arkadaşlar şimdiki olayın danışıklı dövüş olmayacağına inanabiliyor musunuz ",
+      "entryDate": "27.04.2017 06:58"
+    },
+    {
+      "entryTitle": "20 nisan 2017 nasa açıklaması",
+      "entryTitleId": "5351072",
+      "entryId": "67687085",
+      "entry": "uluslararası uzay ve havacılık daire nasa dan sonrasını okumak içimden hiç geçmedi ",
+      "entryDate": "24.04.2017 17:25"
+    },
+    {
+      "entryTitle": "17 nisan 2017 hayırcılar sokağa çıkıyor",
+      "entryTitleId": "5344725",
+      "entryId": "67517992",
+      "entry": "birkaç gün içinde ülke muhalefeti adına birçok yerde ses çıkaramazsak ileride s2 tutmuşuz demektir  adam ilk günden idamı getireceğini söylüyor  baya baya iran sınırını aşıyoruz düşünsel anlamda  ya konuşacağız  ya da elimine olacağız ",
+      "entryDate": "17.04.2017 00:07"
+    },
+    {
+      "entryTitle": "türkiye'den siktir olup gitmek",
+      "entryTitleId": "3843083",
+      "entryId": "67500918",
+      "entry": "bugün yine çok girilecek başlıklardan biri ",
+      "entryDate": "16.04.2017 12:03"
+    },
+    {
+      "entryTitle": "sütaş",
+      "entryTitleId": "53891",
+      "entryId": "67412205",
+      "entry": "yazarların yorumları neden bu kadar olumsuz pek anlamadım ama market menzili bim  şok  ve migros olan benim için fiyat performans açısından en güzel sütü ve kaymaklı yoğurtu üreten firma  öğrenci ekonomisini de göz önünde bulundurarak süt ürünleri için tavsiyesi olan varsa yeşillendirsin  farklılığa açığım ",
+      "entryDate": "12.04.2017 01:36"
+    },
+    {
+      "entryTitle": "pipetcat'e yardım çağrısı",
+      "entryTitleId": "5305841",
+      "entryId": "66408878",
+      "entry": "instagram sayfasında biraz gezin lütfen  sahibinin tedavi için ne kadar çok emek verdiğini göreceksiniz  yardımcı olabilecek biri leri  vardır belki buralarda ",
+      "entryDate": "20.02.2017 12:41"
+    },
+    {
+      "entryTitle": "agar.io",
+      "entryTitleId": "4769335",
+      "entryId": "66358400",
+      "entry": "oyun lan bu  saklambaç  yerden yüksek  tek kale maç gibi bi şey  o an için ciddiye al  hakkın bu senin  rekabet içindesin çünkü  her oyun gibi hayatın belli bir alanının simülasyonunu yaşarsın agarda da  nerden baksan sana tanıdık gelir her sahnesi  anı  çünkü gerçeğin yansıması o  en meymenetsiz ve ihtişamlı özelliği ise sana gücü hissettirmesi  çok zevkli fakat tehlikeli  güç  bağımlılık yaratır  tıpkı siyasi liderlerin koltuklarını bırakamaması gibi sen de öylece kalırsın web tabanlı bir oyunun başında  insanlar der ki  çok saçma  neden oynuyorusn    dersin ki  e hayatta öyle   peki neden hayatın içine değil de bir oyunun içine hapsolmuşsun  tek nedeni anonimlik ve gerçeğin kırılması olabilir  farkı var mı  bence yok oyunun en ilginç yanı toplumun ruh halini genel olarak görebilirsin  mesela şu an herkes o kadar kin ve nefret dolu ki oyundan tat almayı bırak insanlar birbirine kızmak için veya günlük ego mastürbasyonlarını tamamlamak için oynuyorlar artık  toplum da öyle değil mi  her sabah işe giden insanların mutsuzluğu  iş yerinde mobbing uygulayan üst rütbeliler vb    bu aslında tamamen şu ilişkiye benziyor  sado mazo  müptela",
+      "entryDate": "17.02.2017 20:02 ~ 20:03"
+    },
+    {
+      "entryTitle": "saçı 3 numaraya vurma nedenleri",
+      "entryTitleId": "3062383",
+      "entryId": "66294463",
+      "entry": "belki depresyondadır  saçını sarıya boyatmayacağına göre çok kısaltmak istemiştir ",
+      "entryDate": "14.02.2017 18:18"
+    },
+    {
+      "entryTitle": "espri anlayışı olan siyasi lider",
+      "entryTitleId": "5295328",
+      "entryId": "66078319",
+      "entry": "sırrı süreyya önderbirkaç vecizesi   espri yok zaten  kendinizi bilseniz  oturup ağlarsınız  cahiliye dönemi düşüncelerin mi bunlar  çağdaş düşüncelerin mi  sen su bile vermeyen zihniyetin adamısın ince muharrem ince   o pahalı tomalardaki  pahalı ve özel karışımlı suyu evlerden içeri sıkıyorlardı  böyle bir servisi chp  herhangi bir belediyenizle halka sundunuz mu  yok ",
+      "entryDate": "04.02.2017 18:17 ~ 18:48"
+    },
+    {
+      "entryTitle": "seni seviyorum'a verilebilecek en acı cevap",
+      "entryTitleId": "2620323",
+      "entryId": "66068879",
+      "entry": " ben  seni seviyorum  o  sevdiğin insan olduğum için mutlu oldum  ben  hoşlanıyorum işte kızım anlasana  o  mkjkjkjj   kısa bir konuşmanın ardından    ben  hoşlanma mevsuna bi şey demedin  o  yani ne diyeyim ki  hoşlanabilirsin  yasak değil xbdbfbf napayım şimdi ben babaerenler  tam olarak umut un bu karikatürüne benzedi ",
+      "entryDate": "04.02.2017 03:09 ~ 06.02.2017 00:44"
+    },
+    {
+      "entryTitle": "anne",
+      "entryTitleId": "32031",
+      "entryId": "66066419",
+      "entry": "benim için türk rock tarihinin en güzel parçasıdır yaşar kurt anne",
+      "entryDate": "04.02.2017 00:57 ~ 01:11"
+    },
+    {
+      "entryTitle": "spotify",
+      "entryTitleId": "1898194",
+      "entryId": "66043666",
+      "entry": "listemdeki silinen sanatçılardan bazıları tüm şarkıları silinmemiş fakat aralarında çok sevdiklerim var  chriss isaack  ruhi su  sezen aksu  neşet ertaş  haluk levent  pilli bebek  sümer ezgü  müslüm gürses  zuhal olcay  peyk  tarkan  gürol ağırbaş  yaşar kurt  hasret gültekin  nev  ümit besen  blind guardian  pentagram  tolga çandar  oğuz aksaç  ogün şanlısoy  yavuz bingöl  flört  hanoi rocks  cem karaca  musa eroğlu  kargo  mahmut tuncer  barış akarsu  oya bora  zülfü livaneli  lhasa de sela  metallica  cahit berkay  jehan barbur  athena  senem diyici  mfö  coşkun sabah  barış manço  serap tamay  fazıl say   lan  yaşar kurt anne  yi geri getirin bari  müslüm gürses  ten tutamıyorum zamanı dinleyemiyoruz  özellikle blind guardian ın birçok güzel parçasını silmişler  ne diyeyim  kınıyorum seni spotify edit  bir kısmı geri gelmiş şarkıların ",
+      "entryDate": "03.02.2017 00:54 ~ 20:32"
+    },
+    {
+      "entryTitle": "aslı",
+      "entryTitleId": "32482",
+      "entryId": "65882899",
+      "entry": "memlekete gelmişim çarşıda dolanıyorum annemle beraber yıllar önce okuduğum ilkokulu geçtik şimdi ben gidince olan değişimi gözleyip tespitler yağdırıyorum anneme biraz da nostalji sonra karşıdan çok alımlı bir hatun görünüyorgözüm bi yerden kestiriyor amaabir de bakıyorum bu aslıliseden sınıf arkadaşım ne kadar da büyümüşaslı gülüyor neşeyleben de tabii bilirsiniz  saf bir insanım   aslı   ne kadar da güzel bir kız olmuşyurtta cifle temizlediğim berrak bir kupa gibi sert  kırılabilirve çok şıkaslı nbr diyorum ve biraz muhabbet gözlerimi kalçasından alamadığımı farkediyorum 8 saniye sonrane güzelde twerk yapılırdı diye iç geçirirken annem meraklı gözlerle bizi izliyoraslı nın kalçası aslı ve annem üçgeninin arasında annem  diyorum   bu da aslı  ",
+      "entryDate": "27.01.2017 02:46"
+    },
+    {
+      "entryTitle": "orhan kural",
+      "entryTitleId": "267488",
+      "entryId": "65803829",
+      "entry": "sırf orhan kural ı tanımak için gittim  olasılık dersini aldım  almaz olaydım  en sık takip ettiğim ders onunkiydi  anket yapacaksınız vize yerine dedi  ona da eyvallah  yaparız dedik bu arada inancım eksik olsa da da  benim emeğimle o anketi kullanan şirkete haram olsun lan her bir anketim   her derste egosunu tatmin ederken o  kendini izleyen insanların tek derdi dersten iyi not almaktı  ama ne oldu  bu emeğe saygıdan dd verebilecekken gitti ff verdi  üstelik finalde ff lik bir kağıt gelmesi de çok zor  ha benim hatam neydi  kitabını almamaktı  inanmazsınız arkadaşım dört tane kitabını imzalattı bu adama  kim bilir ne not almıştır şimdi  anlatmak istediğim eğer orhan kural  dan ders almak istiyorsanız önce biraz para biriktirin ve kitaplarını satın alın  sonrasında tek düşünmeniz gereken devamsızlık yapmamak  dersi aldıktan birkaç hafta sonra maden fakültesini gezerken bir şeyi farkettim  iki insan  birisi gerçek bir bilim insanı ve entelektüel bilgisi ile birçok kitapçıda kendine okuyucu bulabilen bir insan  odasına açılan kapının ardındaki kapıdan geçerken bile yüzünde bir aydınlanma yaşanıyor  aha içerde gerçek bilim insanları  yine bir şeyleri tartışıyorlar diye  sonra farklı bir kapının önünden geçiyorsun  içerde tonla plaket var  bir sürü başarı örneği  gezip tozulan yerlerden kesitler filan  eyvallah buna saygı duyarım  fakat sırf çocuklara notlarınızı yükseltirim diyerek kitap satıyorsunuz ya  işte o zaman sizden tiksiniyorum kendini böyle pazarlayan insanlardan oldum olası hoşlanmamışımdır ",
+      "entryDate": "24.01.2017 01:17 ~ 17.02.2017 20:06"
+    },
+    {
+      "entryTitle": "istanbul teknik üniversitesi",
+      "entryTitleId": "60634",
+      "entryId": "65432719",
+      "entry": "öğrencisini mağdur etmekte ustalaşmış okul  temmuz ağustos dönemi tercih yapacak arkadaşlara aylar öncesinden gelen iyi niyet mesajı  illa ki bu sayfaları yazın okuyan gençler olacaktır  aman arkadaşlar  çok iyi bölümlere gelicez  güzel arkadaşlıklar kurcaz  deli para kazanıcaz  hayatı tanıyacağız filan diyorsunuz fakat itü deki eğitim hayatınız boyunca sizi bir sürü saçma uygulamayla hayattan yıldıracaklar  bunu bilerek seçim yapın edit  mağduriyet sebebi  9 ocak istanbul kar yağışı günler öncesinden belli iken sınavların ertelenmemesi yada herhangi bir konuda hiçbir açıklama yapılmaması ve bu yüzden öğrencilerin binbir zorlukla okula gelmesi  sabah 9 daki sınavdan yarım saat önce de açıklama yapılması ve açıklama da öğrencilerin isterlerse mazeret sınavlarına mazeretsiz girebilmesi  keşke 1 gün önce söyleseydiniz de bunca kafa karışıklığına ve probleme sebep olmasaydınız edit 2  saatler sonra doğru düzgün karar vermişler çok şükür  bugün ve yarınki sınavlar haftaya aynı günler de yapılacakmış  şu saate kadar öğrencilerin çektiği psikolojik zorluğa değer miydi ",
+      "entryDate": "09.01.2017 10:49 ~ 14:07"
+    },
+    {
+      "entryTitle": "mehmet karaca",
+      "entryTitleId": "1295806",
+      "entryId": "65432233",
+      "entry": "dışarıda tipi şeklinde kar yağıyor  birçok üniversite  öğrencisine kolaylık sağlayacak şekilde günler öncesinden tatili ilan etmişken  bizim rektörümüz bir meteoroloji mühendisi olarak karın daha az yağdığı bir günü tatil ilan edip yoğun kar yağışı olan günde sesini çıkarmıyor  sinirlerine hakim olmak çok zor bu olanlara karşı üniversite içinde bir yurtta kalıyorum  az önce işinden gücünden dolayı arabasıyla dışarıda olanların nasıl kaydıklarını izliyordum  ben şu an yurttan çıkıp fakülteye gitmeye korkuyorum  insan sağlığı riski ve mal kaybı ihtimali yüzünden  ayrıca okula ebesinin örekesinden gelen yüzlerce insan var  hele bana deyin bu insanlar ne yapacak saat 8 30 gibi  isteyen mazeretsiz bi şekilde mazeret sınavına girsin demiş okul yönetimi  tamam canım  benim arkadaşım 5 30 ta evinden çıksın  okula gelince bu haberi öğrensin  keza ben 24 saattir iptal olur mu acaba düşüncesiyle ve hiçbir açıklama gelmemesiyle kafayı sıyırayım  keşke ben de bu rahat kafaya erişebilsem  ama yok  hayır  kim bilir kaç kişinin ahı alındı sadece bugünkü olayla   ",
+      "entryDate": "09.01.2017 10:22"
+    },
+    {
+      "entryTitle": "spotify",
+      "entryTitleId": "1898194",
+      "entryId": "63240726",
+      "entry": "şarkı sözleri kısmı kaldırılsa da ona alternatif bulunan site  https   github com fr31 spotifylyricsburdan uygulamayı yükleyip şarkı sözlerine erişebilirsiniz ",
+      "entryDate": "01.10.2016 12:18"
+    },
+    {
+      "entryTitle": "tanrının büyük patlama olması",
+      "entryTitleId": "5136754",
+      "entryId": "61333621",
+      "entry": "tanrı nın enkazı god s debris  adlı kitapta da bundan bahseder yıllar önce okumuştum  aklımda kalan bir sözü tanrı her şeyi biliyordu fakat yok olmanın ne demek olduğunu bilmiyordu  ve bu yüzden kendini yok etti bu esnada olan şey büyük patlamaydı ve bildiğiniz gibi evren tekrar büzüşüp en baştaki haline geri dönecek  ve işte tanrı tekrar varolacak  bu hikayeye göre hepimiz tanrının parçalarıyız ",
+      "entryDate": "23.06.2016 22:32"
+    },
+    {
+      "entryTitle": "game of thrones",
+      "entryTitleId": "2213329",
+      "entryId": "60702754",
+      "entry": "çok şükür  bugün de hodor u övdük ",
+      "entryDate": "23.05.2016 23:13"
+    },
+    {
+      "entryTitle": "13 mayıs 2014 soma maden ocağı patlaması",
+      "entryTitleId": "4382609",
+      "entryId": "60491037",
+      "entry": "öyle bir unutmuşum ki  yine patlama oldu diye ödüm koptu ",
+      "entryDate": "13.05.2016 07:52"
+    },
+    {
+      "entryTitle": "ateist vs agnostik vs deist",
+      "entryTitleId": "3945721",
+      "entryId": "60328516",
+      "entry": "hepsini bizzat deneyimleyip sonunda panteist olduğu için çok takılmadığım versuslar dizisi ",
+      "entryDate": "04.05.2016 23:02"
+    },
+    {
+      "entryTitle": "ekşi sözlük",
+      "entryTitleId": "31966",
+      "entryId": "60188469",
+      "entry": "4 yıldır takip ederim  hayatıma hem iyi hem kötü hem de nötr birçok bilgiyi kattı  sırf bunun için hala daha okumaya devam ediyorum  bu hesaptan önce bi tane açmıştım  çaylaklık sıkmaya başlayınca onu kapattım  daha sonra tekrar  aylar önce yeni bi hesap açtım  hala aynı hesap  hala çaylaklık  bu sefer yazar oluncaya kadar sabredeceğim  badi lerime eklediğim  sözlüğün kalitesini arttırdığını düşündüğüm bi kaç yazar da olmasa yine dayanamaz bu hesabı da kapatırdım ama sadece kaliteli yazıları olan endemik yazarlar için çok daha fazla sayıda troll ve forumcunun yazısını görüyoruz  ne diyeyim  en azından o güzel insanları okumak için hala burada olacağım ",
+      "entryDate": "27.04.2016 22:26"
+    },
+    {
+      "entryTitle": "hüseyin karakuş",
+      "entryTitleId": "336309",
+      "entryId": "59882895",
+      "entry": "akıl ile vicdan adlı şarkısı çok samimi olan halk ozanı ",
+      "entryDate": "12.04.2016 13:16 ~ 13:16"
+    },
+    {
+      "entryTitle": "gönül",
+      "entryTitleId": "79791",
+      "entryId": "57598788",
+      "entry": "uygur ve karahanlı türkleri zamanında  günümüzde kullanılan   zihin   kelimesinin karşılığı olan   gönül   osmanlı türkçesinde   kalp   anlamında kullanılmaya başlandı ayrıca kutadgu bilig kaynaklarına köngül diye geçen kelime  sanskrit deki   manas  a denk düşer ve bu kelime ingilizce ye   mind   diye çevrilmiştir ",
+      "entryDate": "09.01.2016 16:03"
+    },
+    {
+      "entryTitle": "tarih",
+      "entryTitleId": "44493",
+      "entryId": "54037697",
+      "entry": " tarih  görünüşte siyasal olaylar  hanedanlar ve uzak geçmişte olup bitenler hakkında özdeyişlerle renklendirilmiş ve şık bir biçimde sunulmuş bilgiden fazlası değildir  büyük  kalabalık toplulukları oyalamaya yarar ve bize insan meselelerine ilişkin bir anlayış kazandırır   öte yandan  tarihin gizli anlamı  akıl yürütmeyi ve gerçeğe  var olan şeylerin neden ve kaynaklarına ilişkin incelikli açıklamalara ve olayların nasıl ve niçinine ilişkin derin bir bilgi elde etmeye yönelik bir çabayı içerir bu nedenle tarih felsefede kök salmıştır   ibn haldun",
+      "entryDate": "15.08.2015 13:05"
+    },
+    {
+      "entryTitle": "itiraflarım",
+      "entryTitleId": "851573",
+      "entryId": "53739066",
+      "entry": "kendimden bi  çok şey bulduğum bir paragrafını aktarıyorum     spoiler    geçmişe dönüp baktığımda şimdi şunu açıkça görebiliyorum ki benim itikatim  tek gerçek itikatim  hayvani içgüdülerimin dışındahayatıma yön veren o itici güç  kendimi mükemmelleştirmeye olaninancımdı  ama bu mükemmelleştirmenin içeriği ve amacı neydi anlatamıyorum  kendimi zihnen geliştirmeye çalışıyordum  araştırabileceğim her şeyi araştırıp öğreniyordum  hayatın yolumaçıkardığı her şeyi  irademi mükemmel hale getirmeye çalıştım kendi kendime kurallar koyuyor  sonra bu kurallara uymaya çalışıyordum kendimi fizik olarak geliştiriyordum  her türden egzersizlegücümü ve çevikliğimi artırdım  kendimi her şekilde yoksun bırakarakdayanıklı ve sabırlı olmaya alıştırdım  bunların hepsini mükemmelinsan olma yolunda yapılması gerekli şeyler olarak görüyordum ilk başta ahlaki açıdan mükemmelliğe ulaşmak fikri vardıtabi ki  ama bu kısa süre sonra yerini her alanda mükemmelliğeulaşma  sadece kendi gözümde ya da tanrının gözünde değil  başkainsanların gözünde de daha iyi bir yerde olma isteğine bıraktı  buçaba da çok geçmeden başkalarından daha güçlü olma arzusunadönüştü  başkalarından daha ünlü  daha önemli ve daha varlıklı olmaarzusuna lev nikolayevich tolstoy    spoiler    ",
+      "entryDate": "03.08.2015 17:39 ~ 17:40"
+    },
+    {
+      "entryTitle": "ego",
+      "entryTitleId": "34469",
+      "entryId": "53670208",
+      "entry": "bakıldığını hisseden ego  sevildigini hisseder  sevildigini hisseden de kendine saygı besler ve güçlüdür  bakılmayan ve sevilmeyen egonun kendine saygısı gelişmez  ona bakmadıklarına göre kötüdür  sevilecek bir yeri olmadığı için sevilmemiştir saysalardı  severlerdi  bakarladı öyleyse o kendini neden sevsin  o kendini neden saysın bu ego güçsüz ve tehlikelerle karşılaşmaya yatkındır sevilmeyen ve sayılmayan ego hiçlik endişesi yaşarken  sevilen ve sayılan da sevgi ve saygının yitirileceği endişesindedir bu endişeyi yaşamamak uğruna önlemler alır içinde bulunduğu durumları değerlendirir davranışlarını ona göre düzenler girişebileceği eylemlerin sonuçlarını tartar bu değerlendirmeler sevgi ve saygının olasılığını tasarlamayı ve bu tehlikeyi soruşturan çareleri bulmayı amaçlar ",
+      "entryDate": "01.08.2015 00:13"
+    },
+    {
+      "entryTitle": "5 yılda 270 makale yazan akademisyen",
+      "entryTitleId": "3201881",
+      "entryId": "53616756",
+      "entry": "ilköğretim ve lisede günde 1000 soru çözen çocuğun büyümüş halidir ",
+      "entryDate": "30.07.2015 04:29"
+    },
+    {
+      "entryTitle": "insan",
+      "entryTitleId": "33842",
+      "entryId": "53610657",
+      "entry": "hikaye 2 7 milyon yıl öncesinin etiyopya sında bulunan gona ırmağı yakınlarında başlar   ",
+      "entryDate": "29.07.2015 23:32"
+    },
+    {
+      "entryTitle": "robert chambers",
+      "entryTitleId": "3573387",
+      "entryId": "53610446",
+      "entry": "darwin den önce evrim fikrini geniş kitlelere sundu  der ki   insan doğası onu hayvanlardan ayıran ruhsal bir nitelikten kaynaklanmaz  evrim süreç boyunca gelişen yetilerin doğrudan bir uzantısıdır  ayrıca bir tümcesi şu şekilde   öyleyse yerküre üzerindeki organik yaşamın ilerleyişiyle ilgili zihnimde oluşturduğum fikir şudur en yalın ve en ilkel tür  benzeri üreyişin tabi olduğu bir yasa uyarınca üzerindeki türe  bu da bir üsttekine yaşam vermiş bu böyle en üstteki türe kadar sürüp gitmiştir  ilerleme aşamaları  her durumda son derece küçük  açmak gerekirse bir türden ötekine  olmuştur  öyle ki  sözünü ettiğimiz olgu  her zaman yalın ve sade bir nitelik gösterir   ",
+      "entryDate": "29.07.2015 23:25"
+    },
+    {
+      "entryTitle": "bastırma",
+      "entryTitleId": "258861",
+      "entryId": "53609983",
+      "entry": "derin kaygılara neden olan düşünceleri yok sayarak huzursuzluktan kaçma durumudur  aslında yok sayılan düşünce bilinçaltına itilmektedir freud un ileri sürdüğü en önemli süreçlerden biri olan bu savunma mekanizması birçok benlik savunmalarının özünü oluşturur  yaşamın ilk 5 6 yılında acı veren yaşantıların birçoğunun  bilinçaltına gömüldüğü ve daha sonraki yıllarda bu üzeri örtülen acı verici olayların bireylerin davranışlarını etkilediğine inanılmaktadır  kaynak   dövüş kulübü   filminin ruhbilimsel çözümlemesi  yrd  doc dr  ışıl horzum",
+      "entryDate": "29.07.2015 23:08"
+    }
+  ]
+}
