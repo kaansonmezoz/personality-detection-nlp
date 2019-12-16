@@ -81,3 +81,31 @@ Aynı şekilde #12341234 (#entry_id) şeklinde olan ifadelerde de daha önceden 
     * snowdiyebiri*
     * synallagmatique
     * flaminis
+
+
+### Veriseti v2
+
+* #### Four Classes
+
+|   Class        | User Count  | Entry Count  | Word Count      | Character Count  |
+|----------------|-------------|--------------|-----------------|------------------|
+| **Sentinels**  |    *122*    |  *113,393*   |   *5,567,504*   |   *33,172,694*   |
+| **Explorers**  |    *79*     |   *67,856*   |   *3,016,822*   |   *17,878,022*   |
+| **Diplomats**  |    *208*    |   *222,070*  |  *12,299,922*	|   *72,170,000*   |
+| **Analysts**   |    *238*    |   *240,593*  |  *12,922,503*	|   *77,668,091*   |
+| **overall**    |    *647*    |  *643,912*   |  *33,806,751*   |  *200,888,807*   |
+
+
+### Silinen kullanıcılar:
+    * snowdiyebiri*
+    * synallagmatique
+    * flaminiscrying phoenix
+    * bistromyget
+    * exomanyak
+    * im yes perfecto
+    * siwano
+    * bu ne dunya kardesimmm
+    * spujin
+    * yuci
+
+
