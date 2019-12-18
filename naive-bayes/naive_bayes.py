@@ -108,6 +108,7 @@ Entrylerdeki harfler küçük harf haline getirilir
 """
 
 df['entry'] = df['entry'].str.lower()
+df['entry']
 
 """Dataframe içerisindeki bütün entrylere '**bkz**', '**spoiler**', '**#**' içerip içermediğine bakar ve bunun sonucu index numarasıyla birlikte döner. ```15 True``` gibi bu demek oluyor ki 15 numaralı index bizim yazmış olduğumuz koşulu sağlamaktadır."""
 
@@ -116,30 +117,35 @@ indexes_contains_unwanted_words = df['entry'].str.contains('|'.join(['bkz', 'spo
 """Dataframe'den ilgili entryler çıkartılır"""
 
 df = df[~indexes_contains_unwanted_words]
-df.shape[0]
+
+df['entry']
 
 """Entrylerden stop words silinir.   --> Bu kısım gerekmeyebilir"""
 
-df['entry'] = df['entry'].str.replace('|'.join(stop_word_list), ' ')
+df['entry'] = df['entry'].apply(lambda x: ' '.join([word for word in x.split() if word not in (stop_word_list)]))
+df['entry']
 
 """Entrylerden web site linkleri silinir."""
 
 df['entry'] = df['entry'].str.replace(r'http\S+', ' ', regex=True)
 df['entry'] = df['entry'].str.replace(r'www\S+', '', regex=True)
+df['entry']
 
 """Entrylerden noktalama işaretleri temizlenir."""
 
 import string
 
 df['entry'] = df['entry'].apply(lambda x: x.translate(str.maketrans(string.punctuation, ' '*len(string.punctuation))))
+df['entry']
 
 """Entrylerden rakamlar silinir."""
 
 df['entry'] = df['entry'].str.replace('\d+', ' ')
+df['entry']
 
 """Verisetinin stemmera sokmadan önceki ön işlemeden geçirilmiş hali kaydedilir. Buradaki amaç stemmerdan geçirilmiş ve geçirilmemiş halinin başarı açısından karşılaştırılmasının yapılabilmesi."""
 
-df.to_csv("gdrive/My Drive/mbti/preprocessed_dataset_v1.csv", sep=';', encoding='utf-8')
+df.to_csv("gdrive/My Drive/mbti/preprocessed_dataset_no_stemming.csv", sep=';', encoding='utf-8')
 
 """SnowballStemmer içerisinde Türkçe dili için kullanabileceğimiz TurkishStemmer import edilir. Stemmer ile kelimelerin köklerine ulaşılır. Lemmatization işlemiyle kök bulunduğu zaman elde edilen kökler biçimsel açıdan da doğru olurken (yani mantıksal açıdan da) stemmer ile elde edilen köklerde böyle bir durum söz konusu değildir. Dolayısıyla stemming edilmis hallerine bakıldıgında mantıksal açıdan düzgün sonuclar vermeyebilir.
 
@@ -151,20 +157,21 @@ Google Colab'a snowballstemmer ile ilgil package'i indirmek için aşağıdaki k
 from snowballstemmer import TurkishStemmer
 
 stemmer = TurkishStemmer()
+df['entry']
 
-row_count = df.shape[0]
-kökler = stemmer.stemWords(entry.split(" "))
+indexes = df.index
 
-for i in range(row_count):
-    entry = df['entry'][i]
+for i in range(len(indexes)):
+    index = indexes[i]
+    entry = df['entry'][index]
     entry_kokler = stemmer.stemWords(entry.split(" "))
-    df['entry'][i] = " ".join(entry_kokler)
-    
+    df['entry'][index] = " ".join(entry_kokler)
+
 df['entry']
 
 """Stemmera sokulmuş hali kaydedilir."""
 
-df.to_csv("gdrive/My Drive/mbti/preprocessed_dataset_v2.csv", sep=';', encoding='utf-8')
+df.to_csv("gdrive/My Drive/mbti/preprocessed_dataset_with_stemming.csv", sep=';', encoding='utf-8')
 
 """TF-IDF özellik vektörünün çıkartılmasında kullanılacak değişken aşağıda belirlenmiş olan parametrelerle oluşturulur."""
 
