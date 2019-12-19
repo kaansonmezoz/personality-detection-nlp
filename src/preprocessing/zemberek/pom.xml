@@ -8,5 +8,38 @@
     <artifactId>Zemberek</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <repositories>
+        <repository>
+            <id>zemberek-repo</id>
+            <name>zemberek Maven Repo on Github</name>
+            <url>https://raw.github.com/ahmetaa/maven-repo/master</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>zemberek-nlp</groupId>
+            <artifactId>zemberek-core</artifactId>
+            <version>0.17.1</version>
+        </dependency>
+
+        <!-- Morphological analysis: lemmatization, stemming, informal turkish words analysis  etc ...  -->
+        <dependency>
+            <groupId>zemberek-nlp</groupId>
+            <artifactId>zemberek-morphology</artifactId>
+            <version>0.17.1</version>
+        </dependency>
+
+        <!--   Basic spell checker, word suggestion. Noisy text normalization.  -->
+        <dependency>
+            <groupId>zemberek-nlp</groupId>
+            <artifactId>zemberek-normalization</artifactId>
+            <version>0.17.1</version>
+        </dependency>
+</dependencies>
+
+
+
 
 </project>
