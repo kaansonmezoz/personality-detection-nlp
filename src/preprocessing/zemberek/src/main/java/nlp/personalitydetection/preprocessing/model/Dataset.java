@@ -1,26 +1,21 @@
-package nlp.personalitydetection.preprocessing;
+package nlp.personalitydetection.preprocessing.model;
 
-import java.util.ArrayList;
+import java.util.List;
 
 public class Dataset {
-    private ArrayList<DatasetRow> rows;
-    private ArrayList<String> columnNames;
+    private List<DatasetRow> rows;
+    private List<String> columnNames;
 
-    public Dataset(){}
+    public Dataset(List<DatasetRow> rows, List<String> columnNames) {
+        this.rows = rows;
+        this.columnNames = columnNames;
+    }
 
-    public ArrayList<DatasetRow> getRows() {
+    public List<DatasetRow> getRows() {
         return rows;
     }
 
-    public void setRows(ArrayList<DatasetRow> rows) {
-        this.rows = rows;
-    }
-
-    public ArrayList<String> getColumnNames() {
+    public List<String> getColumnNames() {
         return columnNames;
-    }
-
-    public void setColumnNames(ArrayList<String> columnNames) {
-        this.columnNames = columnNames;
     }
 }

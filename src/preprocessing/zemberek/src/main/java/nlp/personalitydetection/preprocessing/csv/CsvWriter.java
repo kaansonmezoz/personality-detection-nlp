@@ -1,4 +1,4 @@
-package nlp.personalitydetection.preprocessing.csv.writer;
+package nlp.personalitydetection.preprocessing.csv;
 
 public class CsvWriter {
 }

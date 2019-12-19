@@ -1,4 +1,4 @@
-package nlp.personalitydetection.preprocessing;
+package nlp.personalitydetection.preprocessing.model;
 
 public class DatasetRow {
     private String user;
@@ -44,35 +44,35 @@ public class DatasetRow {
         this.typeClass = typeClass;
     }
 
-    public String getiEStatus() {
+    public String getIEStatus() {
         return iEStatus;
     }
 
-    public void setiEStatus(String iEStatus) {
+    public void setIEStatus(String iEStatus) {
         this.iEStatus = iEStatus;
     }
 
-    public String getsNStatus() {
+    public String getSNStatus() {
         return sNStatus;
     }
 
-    public void setsNStatus(String sNStatus) {
+    public void setSNStatus(String sNStatus) {
         this.sNStatus = sNStatus;
     }
 
-    public String gettFStatus() {
+    public String getTFStatus() {
         return tFStatus;
     }
 
-    public void settFStatus(String tFStatus) {
+    public void setTFStatus(String tFStatus) {
         this.tFStatus = tFStatus;
     }
 
-    public String getjPStatus() {
+    public String getJPStatus() {
         return jPStatus;
     }
 
-    public void setjPStatus(String jPStatus) {
+    public void setJPStatus(String jPStatus) {
         this.jPStatus = jPStatus;
     }
 }
