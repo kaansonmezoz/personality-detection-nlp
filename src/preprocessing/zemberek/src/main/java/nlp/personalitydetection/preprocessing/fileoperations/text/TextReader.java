@@ -1,4 +1,4 @@
-package nlp.personalitydetection.preprocessing.fileoperations.csv;
+package nlp.personalitydetection.preprocessing.fileoperations.text;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -18,7 +18,6 @@ public class TextReader {
         }
 
         reader.close();
-
         return lines;
     }
 }

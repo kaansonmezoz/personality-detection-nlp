@@ -1,4 +1,4 @@
-package nlp.personalitydetection.preprocessing.csv;
+package nlp.personalitydetection.preprocessing.fileoperations.csv;
 
 import nlp.personalitydetection.preprocessing.model.Dataset;
 import nlp.personalitydetection.preprocessing.model.DatasetRow;
