@@ -9,10 +9,9 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        //TODO: Burası degismeli elemeye ugradıktan sonra olan verisetinden okumalıyız...
         CsvReader reader = new CsvReader();
 
-        Dataset dataset = reader.readFile(FilePath.RAW_DATASET_PATH, ";");
+        Dataset dataset = reader.readFile(FilePath.ELIMINATED_DATASET_PATH, ";");
         System.out.println("Total rows in the dataset: " + dataset.getRows().size());
 
         Zemberek zemberek = new Zemberek();
