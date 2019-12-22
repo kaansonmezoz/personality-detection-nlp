@@ -15,10 +15,14 @@ public class CsvWriter {
         String row = createColumnNamesRowString(dataset.getColumnNames());
         csvWriter.write(row);
 
+        System.out.println("Preprocessed dataset has being written to a file !");
+
         for(DatasetRow datasetRow : dataset.getRows()){
             row = createDataRowString(datasetRow);
-            csvWriter.write(row);
+            csvWriter.append(row);
         }
+
+        System.out.println(dataset.getRows().size() + " entries have been written to a file !");
 
         csvWriter.flush();
         csvWriter.close();
@@ -31,14 +35,14 @@ public class CsvWriter {
     }
 
     private String createColumnNamesRowString(List<String> columnNames){
-        String row = "";
+        StringBuilder row = new StringBuilder();
 
         for(int i = 0; i < columnNames.size() - 1; i++){
-            row += columnNames.get(i) + ";";
+            row.append(columnNames.get(i)).append(";");
         }
 
-        row += columnNames.get(columnNames.size()-1) + "\n";
+        row.append(columnNames.get(columnNames.size() - 1)).append("\n");
 
-        return row;
+        return row.toString();
     }
 }

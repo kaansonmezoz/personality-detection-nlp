@@ -12,6 +12,7 @@ import zemberek.normalization.TurkishSentenceNormalizer;
 import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.util.Iterator;
 import java.util.List;
 
 public class Zemberek {
@@ -43,29 +44,40 @@ public class Zemberek {
         //TODO: Mantıken normalization dediğimiz şeyin olayı o zaten ...
         //TODO: vurucam kırbacı bu normalize edilemedi mesela spell check ile denensenydi nasıl bir sonuc verirdi ona da bakmak lazim
 
-        List<DatasetRow> rows = dataset.getRows();
-        int iterationCount = 0;
+        System.out.println("Preprocessing started !\n");
 
-        for (DatasetRow row : rows) {
-            iterationCount++;
+        List<DatasetRow> rows = dataset.getRows();
+
+        int entryCount = 1;
+        for(Iterator<DatasetRow> iterator = rows.iterator(); iterator.hasNext(); ) {
+            System.out.println(String.format("Entry count: %d    Total entries: %d", entryCount, rows.size()));
+
+            DatasetRow row = iterator.next();
 
             String entry = row.getEntry();
 
             entry = entry.toLowerCase();
 
-            entry = removeDigits(entry);
             entry = removePunctuations(entry);
             entry = removeExtraWhiteSpaces(entry);
-
-            entry = normalizeEntry(entry);
             entry = removeStopWords(entry);
-            entry = lemmatizeEntry(entry);
+            entry = removePunctuations(entry);
+            entry = removeDigits(entry);
             entry = removeExtraWhiteSpaces(entry);
 
-            row.setEntry(entry);
+            if(entry != null && !entry.equals("") && !entry.equals(" ")) {
+                entry = normalizeEntry(entry);
+                entry = lemmatizeEntry(entry);
+                row.setEntry(entry);
+            }
+            else {
+                iterator.remove();
+            }
 
-            System.out.println(String.format("Entry count: %d    Total entries: %d", iterationCount, rows.size()));
+            entryCount++;
         }
+
+
     }
 
 
@@ -79,6 +91,10 @@ public class Zemberek {
 
 
     private String lemmatizeEntry(String entry) {
+        if(entry == null || entry.equals("")){
+            return entry;
+        }
+
         StringBuilder lemmatizedEntry = new StringBuilder();
         List<SingleAnalysis> analyses = morphology.analyzeAndDisambiguate(entry).bestAnalysis();
 
@@ -93,7 +109,7 @@ public class Zemberek {
 
     private String removeStopWords(String entry) {
         for (String stopWord : stopWords) {
-            entry = entry.replaceAll(stopWord, "");
+            entry = entry.replaceAll(String.format("\\b%s\\b", stopWord), "");
         }
 
         return entry;
