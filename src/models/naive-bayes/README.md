@@ -100,6 +100,38 @@ ACTUAL   | Diplomats |   21938   |   15372   |     1     |     67    |
 
 ```
 
+### Experiment - 4
+
+- preprocessed_dataset_with_no_stemming.csv used
+
+- random_state=42, test_split=0.20
+
+- tf-idf denendi max_features = 5000, sublinear_tf=True, norm='l2', encoding='utf-8', ngram_range=(1, 2), analyzer = 'word', token_pattern=r'\w{1,}'
+
+- lemmatization, normalization made.
+
+- expanded stop words used.
+
+- accuracy : 0.4276541422147702
+
+
+```
+                                        Predicted 
+         +-----------+-----------+-----------+-----------+-----------+
+         |           | Analysts  | Diplomats | Explorers | Sentinels |
+         +-----------+-----------+-----------+-----------+-----------+
+         | Analysts  |   29375   |   8644    |     0     |     85    |
+         +-----------+-----------+-----------+-----------+-----------+
+ACTUAL   | Diplomats |   21923   |   15377   |     1     |     76    |
+         +-----------+-----------+-----------+-----------+-----------+
+         | Explorers |   7800    |   3150    |     2     |     25    |
+         +-----------+-----------+-----------+-----------+-----------+
+         | Sentinels |   13750   |   4624    |     0     |     136   |
+         +-----------------------------------------------------------+
+
+```
+
+
 
 ## RESULTS ~ Based on Dimensions
 
@@ -245,7 +277,7 @@ ACTUAL   | P |  44226  | 29583 |              Accuracy : 0.5625643097232491
              +-------+-------+
              |   I   |   E   |
          +---+-------+-------+
-ACTUAL   | I | 47682 | 17122 |                 Accuracy : 0.5586161690840771
+ACTUAL   | I | 47682 | 17122 |                 Accuracy : 0.5700099077814191
          +-----------+-------+
          | E | 39462 | 26944 |
          +-----------+-------+
@@ -281,6 +313,67 @@ ACTUAL   | F |  21885  |  40584  |              Accuracy : 0.5892919746970505
 ACTUAL   | P |  41202  | 25896 |              Accuracy : 0.5651550948860605
          +---+---------+-------+
          | J |  31160  | 32952 |
+         +---+---------+-------+
+         
+``` 
+
+
+### Experiment - 4
+
+- preprocessed_dataset_with_no_stemming.csv used
+
+- random_state=42, test_split=0.20
+
+- tf-idf denendi max_features = 5000, sublinear_tf=True, norm='l2', encoding='utf-8', ngram_range=(1, 2), analyzer = 'word', token_pattern=r'\w{1,}'
+
+- lemmatization, normalization made.
+
+- expanded stop words used.
+
+
+```
+
+            Predicted                        
+
+             +-------+-------+
+             |   I   |   E   |
+         +---+-------+-------+
+ACTUAL   | I | 45999 | 18805 |                 Accuracy : 0.5586161690840771
+         +-----------+-------+
+         | E | 37614 | 28792 |
+         +-----------+-------+
+         
+
+            Predicted                        
+
+             +----------+---------+
+             |     N    |    S    |
+         +---+----------+---------+
+ACTUAL   | N |  94317   |   40    |             Accuracy : 0.7191601249904733
+         +---+----------+---------+
+         | S |  36809   |   44    |
+         +--------------+---------+
+
+
+            Predicted                        
+
+             +---------+---------+
+             |    F    |    T    |
+         +---+---------+---------+
+ACTUAL   | F |  21647  |  40822  |              Accuracy : 0.588407895739654
+         +---+---------+---------+
+         | T |  13183  |  55558  |
+         +---+---------+---------+
+
+
+            Predicted                        
+
+             +---------+-------+
+             |    P    |   J   |
+         +---+---------+-------+
+ACTUAL   | P |  41170  | 25928 |              Accuracy : 0.564431064705434
+         +---+---------+-------+
+         | J |  31223  | 32889 |
          +---+---------+-------+
          
 ``` 
