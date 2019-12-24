@@ -79,6 +79,8 @@ ACTUAL   | Diplomats |   19543   |   17545   |     1     |     94    |
 
 - expanded stop words used.
 
+- stemming used for preprocessing.
+
 - accuracy : 0.4282733785534639
 
 
@@ -108,6 +110,8 @@ ACTUAL   | Diplomats |   21938   |   15372   |     1     |     67    |
 
 - expanded stop words used.
 
+- only fundamental pre-processing steps applied.
+
 - accuracy : 0.4276541422147702
 
 
@@ -134,6 +138,8 @@ ACTUAL   | Diplomats |   21923   |   15377   |     1     |     76    |
 - random_state=42, test_split=0.20
 
 - tf used for feature extraction
+
+- only fundamental pre-processing steps applied.
 
 - expanded stop words used.
 
@@ -163,6 +169,8 @@ ACTUAL   | Diplomats |   21660   |   15716   |     0     |     1     |
 - random_state=42, test_split=0.20
 
 - tf used for feature extraction
+
+- stemming used as an extra pre-processing step
 
 - expanded stop words used.
 
@@ -198,6 +206,8 @@ ACTUAL   | Diplomats |   22099   |   15277   |     0     |     1     |
 
 - accuracy : 0.4355141433484818
 
+- normalization, lemmatization applied as extra sopts of pre-processing.
+
 
 ```
                                         Predicted 
@@ -224,6 +234,8 @@ ACTUAL   | Diplomats |   18295   |   18883   |     0     |     5     |
 - tf used for feature extraction
 
 - equal entry count used for each class
+
+- only fundamental pre-processing steps applied.
 
 - expanded stop words used.
 
@@ -257,6 +269,8 @@ ACTUAL   | Diplomats |   18295   |   18883   |     0     |     5     |
 - tf used for feature extraction
 
 - equal entry count used for each class
+
+- stemming applied as extra pre-processing step
 
 - expanded stop words used.
 
@@ -412,7 +426,7 @@ ACTUAL   | P |  44226  | 29583 |              Accuracy : 0.5625643097232491
 
 - tf-idf denendi max_features = 5000, sublinear_tf=True, norm='l2', encoding='utf-8', ngram_range=(1, 2), analyzer = 'word', token_pattern=r'\w{1,}'
 
-- lemmatization, normalization made.
+- stemming appiled as an extra pre-processsing step
 
 - expanded stop words used.
 
@@ -472,8 +486,6 @@ ACTUAL   | P |  41202  | 25896 |              Accuracy : 0.5651550948860605
 - random_state=42, test_split=0.20
 
 - tf-idf denendi max_features = 5000, sublinear_tf=True, norm='l2', encoding='utf-8', ngram_range=(1, 2), analyzer = 'word', token_pattern=r'\w{1,}'
-
-- lemmatization, normalization made.
 
 - expanded stop words used.
 
@@ -538,6 +550,9 @@ ACTUAL   | P |  41170  | 25928 |              Accuracy : 0.564431064705434
 
 - expanded stop words used.
 
+- only fundamental pre-processing steps applied.
+
+
 
 ```
 
@@ -596,6 +611,7 @@ ACTUAL   | P |  46024  | 21074 |              Accuracy : 0.5884612453319107
 
 - expanded stop words used.
 
+- stemming applied as an extra pre-processing step.
 
 ```
 
@@ -654,6 +670,7 @@ ACTUAL   | P |  46130  | 20968 |              Accuracy : 0.5823946345552931
 
 - expanded stop words used.
 
+- normalization and lemmatization applied 
 
 ```
 
@@ -714,6 +731,7 @@ ACTUAL   | P |  47931  | 18951 |              Accuracy : 0.5745992789689103
 
 - expanded stop words used.
 
+- only fundamental pre-processing steps applied.
 
 ```
 
@@ -776,6 +794,7 @@ ACTUAL   | P |  35290  | 28835 |              Accuracy : 0.5925995404023824
 
 - expanded stop words used.
 
+- stemming applied as an extra pre-processing step
 
 ```
 
