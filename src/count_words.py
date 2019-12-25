@@ -43,7 +43,7 @@ def save_most_common_words(word_counts, file_path, top = 1000):
             word = sorted_keys[i]
             count = word_counts[word]
             
-            file.write("word: {} count: {}\n\n".format(word, count))
+            file.write("{}  :  {}\n".format(word, count))
           
 print("Counting file {} !".format(RAW_DATASET_PATH))
 word_counts = count_words_in_file(RAW_DATASET_PATH)
