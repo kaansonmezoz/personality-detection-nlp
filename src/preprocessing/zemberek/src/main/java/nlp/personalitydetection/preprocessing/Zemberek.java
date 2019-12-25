@@ -12,13 +12,15 @@ import zemberek.normalization.TurkishSentenceNormalizer;
 import java.io.IOException;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.Iterator;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.ListIterator;
 
 public class Zemberek {
     private final TurkishMorphology morphology;
     private final TurkishSentenceNormalizer normalizer;
     private List<String> stopWords;
+    private List<String> stopWordLemmas;
 
     public Zemberek() throws IOException {
         this.morphology = TurkishMorphology.builder()
@@ -28,6 +30,7 @@ public class Zemberek {
 
         this.normalizer = initializeNormalizer();
         this.stopWords = readStopWords();
+        this.stopWordLemmas = createStopWordLemmas();
     }
 
     private TurkishSentenceNormalizer initializeNormalizer() throws IOException {
@@ -49,35 +52,44 @@ public class Zemberek {
         List<DatasetRow> rows = dataset.getRows();
 
         int entryCount = 1;
-        for(Iterator<DatasetRow> iterator = rows.iterator(); iterator.hasNext(); ) {
+        for(ListIterator<DatasetRow> iterator = rows.listIterator(); iterator.hasNext(); ) {
             System.out.println(String.format("Entry count: %d    Total entries: %d", entryCount, rows.size()));
 
             DatasetRow row = iterator.next();
 
-            String entry = row.getEntry();
+            String entry = extractEntry(row);
 
-            entry = entry.toLowerCase();
-
+            entry = removeUrls(entry);
             entry = removePunctuations(entry);
             entry = removeExtraWhiteSpaces(entry);
             entry = removeStopWords(entry);
-            entry = removePunctuations(entry);
+            entry = removeStopWordsLemma(entry);
             entry = removeDigits(entry);
             entry = removeExtraWhiteSpaces(entry);
 
-            if(entry != null && !entry.equals("") && !entry.equals(" ")) {
+            if(isValidEntry(entry)) {
                 entry = normalizeEntry(entry);
                 entry = lemmatizeEntry(entry);
-                row.setEntry(entry);
+
+                entry = removeStopWords(entry);
+                entry = removeStopWordsLemma(entry);
+                entry = removeExtraWhiteSpaces(entry);
+
+                if(isValidEntry(entry)) {
+                    row.setEntry(entry);
+                }
+                else {
+                    System.out.println("Entry is not valid ! Entry Count: " + entryCount);
+                    iterator.remove();
+                }
             }
             else {
+                System.out.println("Entry is not valid ! Entry Count: " + entryCount);
                 iterator.remove();
             }
 
             entryCount++;
         }
-
-
     }
 
 
@@ -115,6 +127,28 @@ public class Zemberek {
         return entry;
     }
 
+    private String removeStopWordsLemma(String entry){
+        for (String stopWordLemma : stopWordLemmas) {
+            entry = entry.replaceAll(String.format("\\b%s\\b", stopWordLemma), "");
+        }
+
+        return entry;
+    }
+
+    private List<String> createStopWordLemmas(){
+        List<String> stopWordLemmas = new ArrayList<>();
+
+        for(String stopWord: stopWords){
+            List<SingleAnalysis> analyses = morphology.analyzeAndDisambiguate(stopWord).bestAnalysis();
+
+            for (SingleAnalysis analysis : analyses) {
+                stopWordLemmas.addAll(analysis.getLemmas());
+            }
+        }
+
+        return stopWordLemmas;
+    }
+
     private List<String> readStopWords() throws IOException {
         TextReader reader = new TextReader();
         return reader.readFile(FilePath.STOP_WORDS_PATH);
@@ -126,5 +160,17 @@ public class Zemberek {
 
     private String removeDigits(String entry) {
         return entry.replaceAll("\\d", "");
+    }
+
+    private String extractEntry(DatasetRow row){
+        return row.getEntry().toLowerCase();
+    }
+
+    private boolean isValidEntry(String entry){
+        return entry != null && !entry.equals("") && !entry.equals(" ");
+    }
+
+    private String removeUrls(String entry){
+        return entry.replaceAll("http\\s*", " ").replaceAll("www\\s*", " ");
     }
 }

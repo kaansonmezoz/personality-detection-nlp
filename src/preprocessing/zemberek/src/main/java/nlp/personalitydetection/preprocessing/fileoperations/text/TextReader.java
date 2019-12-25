@@ -14,7 +14,9 @@ public class TextReader {
         String line;
 
         while((line = reader.readLine()) != null){
-            lines.add(line);
+            if(!line.equals("")) {
+                lines.add(line.toLowerCase());
+            }
         }
 
         reader.close();
