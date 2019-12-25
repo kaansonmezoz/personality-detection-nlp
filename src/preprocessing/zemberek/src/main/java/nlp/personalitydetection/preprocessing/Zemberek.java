@@ -111,9 +111,7 @@ public class Zemberek {
         List<SingleAnalysis> analyses = morphology.analyzeAndDisambiguate(entry).bestAnalysis();
 
         for (SingleAnalysis analysis : analyses) {
-            for (String lemma : analysis.getLemmas()) {
-                lemmatizedEntry.append(" ").append(lemma);
-            }
+            lemmatizedEntry.append(analysis.getLemmas().get(0)).append(" ");
         }
 
         return lemmatizedEntry.toString().trim();
@@ -155,7 +153,7 @@ public class Zemberek {
     }
 
     private String removePunctuations(String entry) {
-        return entry.replaceAll("\\p{Punct}", " ");
+        return entry.replaceAll("\\p{P}", " ");
     }
 
     private String removeDigits(String entry) {
