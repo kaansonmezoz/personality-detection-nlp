@@ -326,7 +326,38 @@ ACTUAL   | Diplomats |   2543    |   2718    |    2266   |    3367   |
 
 ```
 
+### Experiment - 11
 
+- preprocessed_dataset_with_no_stemming.csv used
+
+- random_state=42, test_split=0.20
+
+- tf used for feature extraction
+
+- equal entry count used for each class
+
+- normalization and lemmatization applied.
+
+- expanded stop words used.
+
+- accuracy : 0.37074047938813137
+
+
+```
+                                        Predicted 
+         +-----------+-----------+-----------+-----------+-----------+
+         |           | Analysts  | Diplomats | Explorers | Sentinels |
+         +-----------+-----------+-----------+-----------+-----------+
+         | Analysts  |   4296    |   1269    |    1792   |    3618   |
+         +-----------+-----------+-----------+-----------+-----------+
+ACTUAL   | Diplomats |   2686    |   2596    |    1926   |    3798   |
+         +-----------+-----------+-----------+-----------+-----------+
+         | Explorers |   2612    |   1181    |    3472   |    3710   |
+         +-----------+-----------+-----------+-----------+-----------+
+         | Sentinels |   2332    |   1086    |    1634   |    5923   |
+         +-----------------------------------------------------------+
+
+```
 
 ## RESULTS ~ Based on Dimensions
 
@@ -936,6 +967,68 @@ ACTUAL   | F |  32997  |  29313  |              Accuracy : 0.5895487734580157
 ACTUAL   | P |  39369  | 24634 |              Accuracy : 0.5746032986789651
          +---+---------+-------+
          | J |  29787  | 34140 |
+         +---+---------+-------+
+         
+``` 
+
+### Experiment - 11
+
+- preprocessed_dataset_with_no_stemming.csv used
+
+- random_state=42, test_split=0.20
+
+- tf used for feature extraction
+
+- equal entry count used for each class
+
+- normalization and lemmatization applied.
+
+- expanded stop words used.
+
+
+```
+
+            Predicted                        
+
+             +-------+-------+
+             |   I   |   E   |
+         +---+-------+-------+
+ACTUAL   | I | 48846 | 28551 |                 Accuracy : 0.5979788458715455
+         +-----------+-------+
+         | E | 36069 | 15965 |
+         +-----------+-------+
+         
+
+            Predicted                        
+
+             +----------+---------+
+             |     N    |    S    |
+         +---+----------+---------+
+ACTUAL   | N |  21064   |  15699  |             Accuracy : 0.6017846503818448
+         +---+----------+---------+
+         | S |  13710   |  23379  |
+         +--------------+---------+
+
+
+            Predicted                        
+
+             +---------+---------+
+             |    F    |    T    |
+         +---+---------+---------+
+ACTUAL   | F |  28340  |  34221  |              Accuracy : 0.6028932600011208
+         +---+---------+---------+
+         | T |  15382  |  46968  |
+         +---+---------+---------+
+
+
+            Predicted                        
+
+             +---------+-------+
+             |    P    |   J   |
+         +---+---------+-------+
+ACTUAL   | P |  35398  | 40459 |              Accuracy : 0.5929200081289374
+         +---+---------+-------+
+         | J |  23521  | 28560 |
          +---+---------+-------+
          
 ``` 
