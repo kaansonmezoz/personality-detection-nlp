@@ -2,3 +2,4 @@ src/preprocessing/zemberek/.idea/
 src/preprocessing/zemberek/target/
 *.csv
 src/*_top_1000_words.txt
+*.log
