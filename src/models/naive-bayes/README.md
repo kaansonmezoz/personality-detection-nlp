@@ -4,9 +4,7 @@
 * stop_words_tr.txt adında Türkçe dili için "stop words" diye adlandırılan kelimelerin yer aldığı bir txt driveda mbti klasörünün altında olmalıdır.
 
 
-## RESULTS ~ Based on Classes
-
-### Experiment - 1
+## Experiment - 1
 
 - all_users_v2.csv used.
 
@@ -18,9 +16,9 @@
 
 - expanded stop words used
 
-- Accuracy : 0.42656251213281254
+### RESULTS ~ Based on Classes
 
-! Shuffle denenmeli...
+- Accuracy : 0.42656251213281254
 
 ```
                                         Predicted 
@@ -38,416 +36,7 @@ ACTUAL   | Diplomats |   28056   |   16309   |     1     |     123   |
 
 ```
 
-### Experiment - 2
-
-- preprocessed_dataset_zemberek.csv used
-
-- random_state=42, test_split=0.20
-
-- tf-idf denendi max_features = 5000, sublinear_tf=True, norm='l2', encoding='utf-8', ngram_range=(1, 2), analyzer = 'word', token_pattern=r'\w{1,}'
-
-- lemmatization, normalization made.
-
-- expanded stop words used.
-
-- accuracy : 0.42599632244357427
-
-
-```
-                                        Predicted 
-         +-----------+-----------+-----------+-----------+-----------+
-         |           | Analysts  | Diplomats | Explorers | Sentinels |
-         +-----------+-----------+-----------+-----------+-----------+
-         | Analysts  |   27004   |   10947   |     0     |     111   |
-         +-----------+-----------+-----------+-----------+-----------+
-ACTUAL   | Diplomats |   19543   |   17545   |     1     |     94    |
-         +-----------+-----------+-----------+-----------+-----------+
-         | Explorers |   7093    |   3804    |     1     |     45    |
-         +-----------+-----------+-----------+-----------+-----------+
-         | Sentinels |   12518   |   6092    |     0     |     163   |
-         +-----------------------------------------------------------+
-
-```
-
-### Experiment - 3
-
-- preprocessed_dataset_with_stemming.csv used
-
-- random_state=42, test_split=0.20
-
-- tf-idf denendi max_features = 5000, sublinear_tf=True, norm='l2', encoding='utf-8', ngram_range=(1, 2), analyzer = 'word', token_pattern=r'\w{1,}'
-
-- expanded stop words used.
-
-- stemming used for preprocessing.
-
-- accuracy : 0.4282733785534639
-
-
-```
-                                        Predicted 
-         +-----------+-----------+-----------+-----------+-----------+
-         |           | Analysts  | Diplomats | Explorers | Sentinels |
-         +-----------+-----------+-----------+-----------+-----------+
-         | Analysts  |   29431   |   8606    |     0     |     67    |
-         +-----------+-----------+-----------+-----------+-----------+
-ACTUAL   | Diplomats |   21938   |   15372   |     1     |     67    |
-         +-----------+-----------+-----------+-----------+-----------+
-         | Explorers |   7795    |   3153    |     0     |     29    |
-         +-----------+-----------+-----------+-----------+-----------+
-         | Sentinels |   13712   |   4646    |     0     |     152   |
-         +-----------------------------------------------------------+
-
-```
-
-### Experiment - 4
-
-- preprocessed_dataset_with_no_stemming.csv used
-
-- random_state=42, test_split=0.20
-
-- tf-idf denendi max_features = 5000, sublinear_tf=True, norm='l2', encoding='utf-8', ngram_range=(1, 2), analyzer = 'word', token_pattern=r'\w{1,}'
-
-- expanded stop words used.
-
-- only fundamental pre-processing steps applied.
-
-- accuracy : 0.4276541422147702
-
-
-```
-                                        Predicted 
-         +-----------+-----------+-----------+-----------+-----------+
-         |           | Analysts  | Diplomats | Explorers | Sentinels |
-         +-----------+-----------+-----------+-----------+-----------+
-         | Analysts  |   29375   |   8644    |     0     |     85    |
-         +-----------+-----------+-----------+-----------+-----------+
-ACTUAL   | Diplomats |   21923   |   15377   |     1     |     76    |
-         +-----------+-----------+-----------+-----------+-----------+
-         | Explorers |   7800    |   3150    |     2     |     25    |
-         +-----------+-----------+-----------+-----------+-----------+
-         | Sentinels |   13750   |   4624    |     0     |     136   |
-         +-----------------------------------------------------------+
-
-```
-
-### Experiment - 5
-
-- preprocessed_dataset_with_no_stemming.csv used
-
-- random_state=42, test_split=0.20
-
-- tf used for feature extraction
-
-- only fundamental pre-processing steps applied.
-
-- expanded stop words used.
-
-- accuracy : 0.44398292813047785
-
-
-```
-                                        Predicted 
-         +-----------+-----------+-----------+-----------+-----------+
-         |           | Analysts  | Diplomats | Explorers | Sentinels |
-         +-----------+-----------+-----------+-----------+-----------+
-         | Analysts  |   30874   |   7230    |     0     |     0     |
-         +-----------+-----------+-----------+-----------+-----------+
-ACTUAL   | Diplomats |   21660   |   15716   |     0     |     1     |
-         +-----------+-----------+-----------+-----------+-----------+
-         | Explorers |   7959    |   3018    |     0     |     0     |
-         +-----------+-----------+-----------+-----------+-----------+
-         | Sentinels |   14195   |   4301    |     0     |     14    |
-         +-----------------------------------------------------------+
-
-```
-
-### Experiment - 6
-
-- preprocessed_dataset_with_stemming.csv used
-
-- random_state=42, test_split=0.20
-
-- tf used for feature extraction
-
-- stemming used as an extra pre-processing step
-
-- expanded stop words used.
-
-- accuracy : 0.43932436552092063
-
-
-```
-                                        Predicted 
-         +-----------+-----------+-----------+-----------+-----------+
-         |           | Analysts  | Diplomats | Explorers | Sentinels |
-         +-----------+-----------+-----------+-----------+-----------+
-         | Analysts  |   30822   |   7281    |     0     |     1     |
-         +-----------+-----------+-----------+-----------+-----------+
-ACTUAL   | Diplomats |   22099   |   15277   |     0     |     1     |
-         +-----------+-----------+-----------+-----------+-----------+
-         | Explorers |   8077    |   2899    |     1     |     0     |
-         +-----------+-----------+-----------+-----------+-----------+
-         | Sentinels |   14256   |   4238    |     1     |     15    |
-         +-----------------------------------------------------------+
-
-```
-
-
-### Experiment - 7
-
-- preprocessed_dataset_with_zemberek.csv used
-
-- random_state=42, test_split=0.20
-
-- tf used for feature extraction
-
-- expanded stop words used.
-
-- accuracy : 0.4355141433484818
-
-- normalization, lemmatization applied as extra sopts of pre-processing.
-
-
-```
-                                        Predicted 
-         +-----------+-----------+-----------+-----------+-----------+
-         |           | Analysts  | Diplomats | Explorers | Sentinels |
-         +-----------+-----------+-----------+-----------+-----------+
-         | Analysts  |   26812   |   11247   |     0     |     3     |
-         +-----------+-----------+-----------+-----------+-----------+
-ACTUAL   | Diplomats |   18295   |   18883   |     0     |     5     |
-         +-----------+-----------+-----------+-----------+-----------+
-         | Explorers |   6890    |   4047    |     3     |     3     |
-         +-----------+-----------+-----------+-----------+-----------+
-         | Sentinels |   12274   |   6485    |     1     |     14    |
-         +-----------------------------------------------------------+
-
-```
-
-### Experiment - 8
-
-- preprocessed_dataset_with_no_stemming.csv used
-
-- random_state=42, test_split=0.20
-
-- tf used for feature extraction
-
-- equal entry count used for each class
-
-- only fundamental pre-processing steps applied.
-
-- expanded stop words used.
-
-- accuracy : 0.37360861350754593
-
-
-```
-                                        Predicted 
-         +-----------+-----------+-----------+-----------+-----------+
-         |           | Analysts  | Diplomats | Explorers | Sentinels |
-         +-----------+-----------+-----------+-----------+-----------+
-         | Analysts  |   26812   |   11247   |     0     |     3     |
-         +-----------+-----------+-----------+-----------+-----------+
-ACTUAL   | Diplomats |   18295   |   18883   |     0     |     5     |
-         +-----------+-----------+-----------+-----------+-----------+
-         | Explorers |   6890    |   4047    |     3     |     3     |
-         +-----------+-----------+-----------+-----------+-----------+
-         | Sentinels |   12274   |   6485    |     1     |     14    |
-         +-----------------------------------------------------------+
-
-```
-
-
-
-### Experiment - 9
-
-- preprocessed_dataset_with_stemming.csv used
-
-- random_state=42, test_split=0.20
-
-- tf used for feature extraction
-
-- equal entry count used for each class
-
-- stemming applied as extra pre-processing step
-
-- expanded stop words used.
-
-- accuracy : 0.3643896109808563
-
-
-```
-                                        Predicted 
-         +-----------+-----------+-----------+-----------+-----------+
-         |           | Analysts  | Diplomats | Explorers | Sentinels |
-         +-----------+-----------+-----------+-----------+-----------+
-         | Analysts  |   4506    |   1092    |    1859   |    3379   |
-         +-----------+-----------+-----------+-----------+-----------+
-ACTUAL   | Diplomats |   2867    |   2449    |    1947   |    3755   |
-         +-----------+-----------+-----------+-----------+-----------+
-         | Explorers |   2844    |   1089    |    3373   |    3724   |
-         +-----------+-----------+-----------+-----------+-----------+
-         | Sentinels |   2675    |   1016    |    1676   |    5680   |
-         +-----------------------------------------------------------+
-
-```
-
-### Experiment - 10
-
-- preprocessed_dataset_with_zemberek.csv used
-
-- random_state=42, test_split=0.20
-
-- tf used for feature extraction
-
-- equal entry count used for each class
-
-- normalization and lemmatization applied.
-
-- expanded stop words used.
-
-- accuracy : 0.3539267015706806
-
-
-```
-                                        Predicted 
-         +-----------+-----------+-----------+-----------+-----------+
-         |           | Analysts  | Diplomats | Explorers | Sentinels |
-         +-----------+-----------+-----------+-----------+-----------+
-         | Analysts  |   4002    |   1497    |    2291   |    3335   |
-         +-----------+-----------+-----------+-----------+-----------+
-ACTUAL   | Diplomats |   2543    |   2718    |    2266   |    3367   |
-         +-----------+-----------+-----------+-----------+-----------+
-         | Explorers |   2501    |   1492    |    3689   |    3252   |
-         +-----------+-----------+-----------+-----------+-----------+
-         | Sentinels |   2471    |   1295    |    2072   |    5139   |
-         +-----------------------------------------------------------+
-
-```
-
-### Experiment - 11
-
-- preprocessed_dataset_with_no_stemming.csv used
-
-- random_state=42, test_split=0.20
-
-- tf used for feature extraction
-
-- equal entry count used for each class
-
-- normalization and lemmatization applied.
-
-- expanded stop words used.
-
-- accuracy : 0.37074047938813137
-
-
-```
-                                        Predicted 
-         +-----------+-----------+-----------+-----------+-----------+
-         |           | Analysts  | Diplomats | Explorers | Sentinels |
-         +-----------+-----------+-----------+-----------+-----------+
-         | Analysts  |   4296    |   1269    |    1792   |    3618   |
-         +-----------+-----------+-----------+-----------+-----------+
-ACTUAL   | Diplomats |   2686    |   2596    |    1926   |    3798   |
-         +-----------+-----------+-----------+-----------+-----------+
-         | Explorers |   2612    |   1181    |    3472   |    3710   |
-         +-----------+-----------+-----------+-----------+-----------+
-         | Sentinels |   2332    |   1086    |    1634   |    5923   |
-         +-----------------------------------------------------------+
-
-```
-
-
-### Experiment - 12
-
-- preprocessed_dataset_with_no_stemming.csv used
-
-- K-Fold Cross Validation used. k = 5
-
-- tf used for feature extraction
-
-- expanded stop words used.
-
-- Normalized Confussion Matrixes. (Rounded)
-
-```
-                                        Predicted 
-         +-----------+------------+-----------+-------------+-------------+
-         |           |  Analysts  | Diplomats |  Explorers  |   Sentinels |
-         +-----------+------------+-----------+-------------+-------------+
-         | Analysts  |   0.293    |   0.069   |  0.0000019  |    0        |
-         +-----------+------------+-----------+-------------+-------------+
-ACTUAL   | Diplomats |   0.205    |   0.15    |    0        | 0.0000038   |
-         +-----------+------------+-----------+-------------+-------------+
-         | Explorers |   0.076    |   0.028   |  0.0000095  |    0        |
-         +-----------+------------+-----------+-------------+-------------+
-         | Sentinels |   0.134    |   0.041   |    0        |   0.00011   |
-         +------------------------+-------------------------+-------------+
-
-````
-
-            Predicted                        
-
-             +-------+-------+
-             |   I   |   E   |
-         +---+-------+-------+
-ACTUAL   | I |  0.34 |  0.15 |                 Accuracy : 0.5979788458715455
-         +-----------+-------+
-         | E |  0.25 |  0.26 |
-         +-----------+-------+
-         
-
-            Predicted                        
-
-             +----------+------------+
-             |     N    |      S     |
-         +---+----------+------------+
-ACTUAL   | N |   0.718  |  0.000019  |             Accuracy : 0.6017846503818448
-         +---+----------+------------+
-         | S |   0.281  |  0.000179  |
-         +--------------+------------+
-
-
-            Predicted                        
-
-             +---------+---------+
-             |    F    |    T    |
-         +---+---------+---------+
-ACTUAL   | F |  0.152  |  0.323  |              Accuracy : 0.6028932600011208
-         +---+---------+---------+
-         | T |  0.069  |  0.454  |
-         +---+---------+---------+
-
-
-            Predicted                        
-
-             +---------+-------+
-             |    P    |   J   |
-         +---+---------+-------+
-ACTUAL   | P |  0.351  | 0.161 |              Accuracy : 0.5929200081289374
-         +---+---------+-------+
-         | J |  0.249  | 0.238 |
-         +---+---------+-------+
-         
-``` 
-
-## RESULTS ~ Based on Dimensions
-
-### Experiment - 1
-
-- all_users_v2.csv used.
-
-- random_state=42, test_split=0.20
-
-- tf-idf denendi max_features = 5000, sublinear_tf=True, norm='l2', encoding='utf-8', ngram_range=(1, 2), analyzer = 'word', token_pattern=r'\w{1,}'
-
-- no preprocessing made
-
-- expanded stop words used
-
-! k-fold cross-validation denenmeli
+### RESULTS ~ Based on Dimensions
 
 ```
 
@@ -494,9 +83,9 @@ ACTUAL   | P |  53471  | 29220 |              Accuracy : 0.5638285976965797
          | J |  40994  | 37293 |
          +---+---------+-------+
          
-``` 
+```
 
-### Experiment - 2
+## Experiment - 2
 
 - preprocessed_dataset_zemberek.csv used
 
@@ -507,6 +96,29 @@ ACTUAL   | P |  53471  | 29220 |              Accuracy : 0.5638285976965797
 - lemmatization, normalization made.
 
 - expanded stop words used.
+
+### RESULTS ~ Based on Classes
+
+- accuracy : 0.42599632244357427
+
+```
+                                        Predicted 
+         +-----------+-----------+-----------+-----------+-----------+
+         |           | Analysts  | Diplomats | Explorers | Sentinels |
+         +-----------+-----------+-----------+-----------+-----------+
+         | Analysts  |   27004   |   10947   |     0     |     111   |
+         +-----------+-----------+-----------+-----------+-----------+
+ACTUAL   | Diplomats |   19543   |   17545   |     1     |     94    |
+         +-----------+-----------+-----------+-----------+-----------+
+         | Explorers |   7093    |   3804    |     1     |     45    |
+         +-----------+-----------+-----------+-----------+-----------+
+         | Sentinels |   12518   |   6092    |     0     |     163   |
+         +-----------------------------------------------------------+
+
+```
+
+
+### RESULTS ~ Based on Dimensions
 
 
 ```
@@ -557,7 +169,7 @@ ACTUAL   | P |  44226  | 29583 |              Accuracy : 0.5625643097232491
 ``` 
 
 
-### Experiment - 3
+## Experiment - 3
 
 - preprocessed_dataset_with_stemming.csv used
 
@@ -565,10 +177,32 @@ ACTUAL   | P |  44226  | 29583 |              Accuracy : 0.5625643097232491
 
 - tf-idf denendi max_features = 5000, sublinear_tf=True, norm='l2', encoding='utf-8', ngram_range=(1, 2), analyzer = 'word', token_pattern=r'\w{1,}'
 
-- stemming appiled as an extra pre-processsing step
-
 - expanded stop words used.
 
+- stemming used for preprocessing.
+
+### RESULTS ~ Based on Classes
+
+- accuracy : 0.4282733785534639
+
+
+```
+                                        Predicted 
+         +-----------+-----------+-----------+-----------+-----------+
+         |           | Analysts  | Diplomats | Explorers | Sentinels |
+         +-----------+-----------+-----------+-----------+-----------+
+         | Analysts  |   29431   |   8606    |     0     |     67    |
+         +-----------+-----------+-----------+-----------+-----------+
+ACTUAL   | Diplomats |   21938   |   15372   |     1     |     67    |
+         +-----------+-----------+-----------+-----------+-----------+
+         | Explorers |   7795    |   3153    |     0     |     29    |
+         +-----------+-----------+-----------+-----------+-----------+
+         | Sentinels |   13712   |   4646    |     0     |     152   |
+         +-----------------------------------------------------------+
+
+```
+
+### RESULTS ~ Based on Dimensions
 
 ```
 
@@ -618,7 +252,8 @@ ACTUAL   | P |  41202  | 25896 |              Accuracy : 0.5651550948860605
 ``` 
 
 
-### Experiment - 4
+
+## Experiment - 4
 
 - preprocessed_dataset_with_no_stemming.csv used
 
@@ -627,6 +262,31 @@ ACTUAL   | P |  41202  | 25896 |              Accuracy : 0.5651550948860605
 - tf-idf denendi max_features = 5000, sublinear_tf=True, norm='l2', encoding='utf-8', ngram_range=(1, 2), analyzer = 'word', token_pattern=r'\w{1,}'
 
 - expanded stop words used.
+
+- only fundamental pre-processing steps applied.
+
+### RESULTS ~ Based on Classes
+
+- accuracy : 0.4276541422147702
+
+
+```
+                                        Predicted 
+         +-----------+-----------+-----------+-----------+-----------+
+         |           | Analysts  | Diplomats | Explorers | Sentinels |
+         +-----------+-----------+-----------+-----------+-----------+
+         | Analysts  |   29375   |   8644    |     0     |     85    |
+         +-----------+-----------+-----------+-----------+-----------+
+ACTUAL   | Diplomats |   21923   |   15377   |     1     |     76    |
+         +-----------+-----------+-----------+-----------+-----------+
+         | Explorers |   7800    |   3150    |     2     |     25    |
+         +-----------+-----------+-----------+-----------+-----------+
+         | Sentinels |   13750   |   4624    |     0     |     136   |
+         +-----------------------------------------------------------+
+
+```
+
+### RESULTS ~ Based on Dimensions
 
 
 ```
@@ -674,12 +334,9 @@ ACTUAL   | P |  41170  | 25928 |              Accuracy : 0.564431064705434
          | J |  31223  | 32889 |
          +---+---------+-------+
          
-``` 
+```
 
-
-
-
-### Experiment - 5
+## Experiment - 5
 
 - preprocessed_dataset_with_no_stemming.csv used
 
@@ -687,11 +344,32 @@ ACTUAL   | P |  41170  | 25928 |              Accuracy : 0.564431064705434
 
 - tf used for feature extraction
 
-- expanded stop words used.
-
 - only fundamental pre-processing steps applied.
 
+- expanded stop words used.
 
+### RESULTS ~ Based on Classes
+
+- accuracy : 0.44398292813047785
+
+
+```
+                                        Predicted 
+         +-----------+-----------+-----------+-----------+-----------+
+         |           | Analysts  | Diplomats | Explorers | Sentinels |
+         +-----------+-----------+-----------+-----------+-----------+
+         | Analysts  |   30874   |   7230    |     0     |     0     |
+         +-----------+-----------+-----------+-----------+-----------+
+ACTUAL   | Diplomats |   21660   |   15716   |     0     |     1     |
+         +-----------+-----------+-----------+-----------+-----------+
+         | Explorers |   7959    |   3018    |     0     |     0     |
+         +-----------+-----------+-----------+-----------+-----------+
+         | Sentinels |   14195   |   4301    |     0     |     14    |
+         +-----------------------------------------------------------+
+
+```
+
+### RESULTS ~ Based on Dimensions
 
 ```
 
@@ -740,7 +418,7 @@ ACTUAL   | P |  46024  | 21074 |              Accuracy : 0.5884612453319107
          
 ``` 
 
-### Experiment - 6
+## Experiment - 6
 
 - preprocessed_dataset_with_stemming.csv used
 
@@ -748,9 +426,32 @@ ACTUAL   | P |  46024  | 21074 |              Accuracy : 0.5884612453319107
 
 - tf used for feature extraction
 
+- stemming used as an extra pre-processing step
+
 - expanded stop words used.
 
-- stemming applied as an extra pre-processing step.
+### RESULTS ~ Based on Classes
+
+- accuracy : 0.43932436552092063
+
+
+```
+                                        Predicted 
+         +-----------+-----------+-----------+-----------+-----------+
+         |           | Analysts  | Diplomats | Explorers | Sentinels |
+         +-----------+-----------+-----------+-----------+-----------+
+         | Analysts  |   30822   |   7281    |     0     |     1     |
+         +-----------+-----------+-----------+-----------+-----------+
+ACTUAL   | Diplomats |   22099   |   15277   |     0     |     1     |
+         +-----------+-----------+-----------+-----------+-----------+
+         | Explorers |   8077    |   2899    |     1     |     0     |
+         +-----------+-----------+-----------+-----------+-----------+
+         | Sentinels |   14256   |   4238    |     1     |     15    |
+         +-----------------------------------------------------------+
+
+```
+
+### RESULTS ~ Based on Dimensions
 
 ```
 
@@ -797,9 +498,9 @@ ACTUAL   | P |  46130  | 20968 |              Accuracy : 0.5823946345552931
          | J |  33826  | 30286 |
          +---+---------+-------+
          
-``` 
+```
 
-### Experiment - 7
+## Experiment - 7
 
 - preprocessed_dataset_with_zemberek.csv used
 
@@ -809,7 +510,27 @@ ACTUAL   | P |  46130  | 20968 |              Accuracy : 0.5823946345552931
 
 - expanded stop words used.
 
-- normalization and lemmatization applied 
+### RESULTS ~ Based on Classes
+
+- accuracy : 0.4355141433484818
+
+```
+                                        Predicted 
+         +-----------+-----------+-----------+-----------+-----------+
+         |           | Analysts  | Diplomats | Explorers | Sentinels |
+         +-----------+-----------+-----------+-----------+-----------+
+         | Analysts  |   26812   |   11247   |     0     |     3     |
+         +-----------+-----------+-----------+-----------+-----------+
+ACTUAL   | Diplomats |   18295   |   18883   |     0     |     5     |
+         +-----------+-----------+-----------+-----------+-----------+
+         | Explorers |   6890    |   4047    |     3     |     3     |
+         +-----------+-----------+-----------+-----------+-----------+
+         | Sentinels |   12274   |   6485    |     1     |     14    |
+         +-----------------------------------------------------------+
+
+```
+
+### RESULTS ~ Based on Dimensions
 
 ```
 
@@ -858,19 +579,44 @@ ACTUAL   | P |  47931  | 18951 |              Accuracy : 0.5745992789689103
          
 ``` 
 
-### Experiment - 8
+
+## Experiment - 8
 
 - preprocessed_dataset_with_no_stemming.csv used
-
-- equal entry count used for the classes
 
 - random_state=42, test_split=0.20
 
 - tf used for feature extraction
 
-- expanded stop words used.
+- equal entry count used for each class
 
 - only fundamental pre-processing steps applied.
+
+- expanded stop words used.
+
+### RESULTS ~ Based on Classes
+
+- accuracy : 0.37360861350754593
+
+
+```
+                                        Predicted 
+         +-----------+-----------+-----------+-----------+-----------+
+         |           | Analysts  | Diplomats | Explorers | Sentinels |
+         +-----------+-----------+-----------+-----------+-----------+
+         | Analysts  |   26812   |   11247   |     0     |     3     |
+         +-----------+-----------+-----------+-----------+-----------+
+ACTUAL   | Diplomats |   18295   |   18883   |     0     |     5     |
+         +-----------+-----------+-----------+-----------+-----------+
+         | Explorers |   6890    |   4047    |     3     |     3     |
+         +-----------+-----------+-----------+-----------+-----------+
+         | Sentinels |   12274   |   6485    |     1     |     14    |
+         +-----------------------------------------------------------+
+
+```
+
+### RESULTS ~ Based on Dimensions
+
 
 ```
 
@@ -920,20 +666,43 @@ ACTUAL   | P |  35290  | 28835 |              Accuracy : 0.5925995404023824
 ``` 
 
 
-
-### Experiment - 9
+## Experiment - 9
 
 - preprocessed_dataset_with_stemming.csv used
-
-- equal entry count used for the classes
 
 - random_state=42, test_split=0.20
 
 - tf used for feature extraction
 
+- equal entry count used for each class
+
+- stemming applied as extra pre-processing step
+
 - expanded stop words used.
 
-- stemming applied as an extra pre-processing step
+### RESULTS ~ Based on Classes
+
+- accuracy : 0.3643896109808563
+
+
+```
+                                        Predicted 
+         +-----------+-----------+-----------+-----------+-----------+
+         |           | Analysts  | Diplomats | Explorers | Sentinels |
+         +-----------+-----------+-----------+-----------+-----------+
+         | Analysts  |   4506    |   1092    |    1859   |    3379   |
+         +-----------+-----------+-----------+-----------+-----------+
+ACTUAL   | Diplomats |   2867    |   2449    |    1947   |    3755   |
+         +-----------+-----------+-----------+-----------+-----------+
+         | Explorers |   2844    |   1089    |    3373   |    3724   |
+         +-----------+-----------+-----------+-----------+-----------+
+         | Sentinels |   2675    |   1016    |    1676   |    5680   |
+         +-----------------------------------------------------------+
+
+```
+
+### RESULTS ~ Based on Dimensions
+
 
 ```
 
@@ -983,7 +752,7 @@ ACTUAL   | P |  35397  | 28721 |              Accuracy : 0.5869874470446622
 ``` 
 
 
-### Experiment - 10
+## Experiment - 10
 
 - preprocessed_dataset_with_zemberek.csv used
 
@@ -997,6 +766,28 @@ ACTUAL   | P |  35397  | 28721 |              Accuracy : 0.5869874470446622
 
 - expanded stop words used.
 
+### RESULTS ~ Based on Classes
+
+- accuracy : 0.3539267015706806
+
+
+```
+                                        Predicted 
+         +-----------+-----------+-----------+-----------+-----------+
+         |           | Analysts  | Diplomats | Explorers | Sentinels |
+         +-----------+-----------+-----------+-----------+-----------+
+         | Analysts  |   4002    |   1497    |    2291   |    3335   |
+         +-----------+-----------+-----------+-----------+-----------+
+ACTUAL   | Diplomats |   2543    |   2718    |    2266   |    3367   |
+         +-----------+-----------+-----------+-----------+-----------+
+         | Explorers |   2501    |   1492    |    3689   |    3252   |
+         +-----------+-----------+-----------+-----------+-----------+
+         | Sentinels |   2471    |   1295    |    2072   |    5139   |
+         +-----------------------------------------------------------+
+
+```
+
+### RESULTS ~ Based on Dimensions
 
 ```
 
@@ -1045,7 +836,7 @@ ACTUAL   | P |  39369  | 24634 |              Accuracy : 0.5746032986789651
          
 ``` 
 
-### Experiment - 11
+## Experiment - 11
 
 - preprocessed_dataset_with_no_stemming.csv used
 
@@ -1059,6 +850,28 @@ ACTUAL   | P |  39369  | 24634 |              Accuracy : 0.5746032986789651
 
 - expanded stop words used.
 
+### RESULTS ~ Based on Classes
+
+- accuracy : 0.37074047938813137
+
+
+```
+                                        Predicted 
+         +-----------+-----------+-----------+-----------+-----------+
+         |           | Analysts  | Diplomats | Explorers | Sentinels |
+         +-----------+-----------+-----------+-----------+-----------+
+         | Analysts  |   4296    |   1269    |    1792   |    3618   |
+         +-----------+-----------+-----------+-----------+-----------+
+ACTUAL   | Diplomats |   2686    |   2596    |    1926   |    3798   |
+         +-----------+-----------+-----------+-----------+-----------+
+         | Explorers |   2612    |   1181    |    3472   |    3710   |
+         +-----------+-----------+-----------+-----------+-----------+
+         | Sentinels |   2332    |   1086    |    1634   |    5923   |
+         +-----------------------------------------------------------+
+
+```
+
+### RESULTS ~ Based on Dimensions
 
 ```
 
@@ -1105,9 +918,10 @@ ACTUAL   | P |  35398  | 40459 |              Accuracy : 0.5929200081289374
          | J |  23521  | 28560 |
          +---+---------+-------+
          
-``` 
+```
 
-### Experiment - 12
+
+## Experiment - 12
 
 - preprocessed_dataset_with_no_stemming.csv used
 
@@ -1118,6 +932,28 @@ ACTUAL   | P |  35398  | 40459 |              Accuracy : 0.5929200081289374
 - expanded stop words used.
 
 - Normalized Confussion Matrixes. (Rounded)
+
+### RESULTS ~ Based on Classes
+
+
+```
+                                        Predicted 
+         +-----------+------------+-----------+-------------+-------------+
+         |           |  Analysts  | Diplomats |  Explorers  |   Sentinels |
+         +-----------+------------+-----------+-------------+-------------+
+         | Analysts  |   0.293    |   0.069   |  0.0000019  |    0        |
+         +-----------+------------+-----------+-------------+-------------+
+ACTUAL   | Diplomats |   0.205    |   0.15    |    0        | 0.0000038   |
+         +-----------+------------+-----------+-------------+-------------+
+         | Explorers |   0.076    |   0.028   |  0.0000095  |    0        |
+         +-----------+------------+-----------+-------------+-------------+
+         | Sentinels |   0.134    |   0.041   |    0        |   0.00011   |
+         +------------------------+-------------------------+-------------+
+
+```
+
+### RESULTS ~ Based on Dimensions
+
 
 ```
 
@@ -1162,6 +998,80 @@ ACTUAL   | F |  0.152  |  0.323  |              Accuracy : 0.6028932600011208
 ACTUAL   | P |  0.351  | 0.161 |              Accuracy : 0.5929200081289374
          +---+---------+-------+
          | J |  0.249  | 0.238 |
+         +---+---------+-------+
+         
+``` 
+
+## Experiment 13
+- K-Fold K = 5
+- Dataset: preprocessed_dataset_with_stemming
+- Feature extraction: TF
+- Normalized confussion matrix, with 3 digits after floating point 
+
+### RESULTS ~ Based on Classes
+
+```
+                                        Predicted 
+         +-----------+------------+-----------+-------------+-------------+
+         |           |  Analysts  | Diplomats |  Explorers  |   Sentinels |
+         +-----------+------------+-----------+-------------+-------------+
+         | Analysts  |   0.293    |   0.070   |  0.0000019  | 0.00000952  |
+         +-----------+------------+-----------+-------------+-------------+
+ACTUAL   | Diplomats |   0.208    |   0.146   |  0.0000019  | 0.00000952  |
+         +-----------+------------+-----------+-------------+-------------+
+         | Explorers |   0.077    |   0.027   |  0.0000114  | 0.00000762  |
+         +-----------+------------+-----------+-------------+-------------+
+         | Sentinels |   0.135    |   0.040   |  0.0000038  | 0.000142    |
+         +------------------------+-------------------------+-------------+
+
+```
+
+
+### RESULTS ~ Based on Dimensions
+
+```
+
+            Predicted                        
+
+             +-------+-------+
+             |   I   |   E   |
+         +---+-------+-------+
+ACTUAL   | I |  0.35 |  0.14 |                 Accuracy : 0.5979788458715455
+         +-----------+-------+
+         | E |  0.27 |  0.24 |
+         +-----------+-------+
+         
+
+            Predicted                        
+
+             +----------+------------+
+             |     N    |      S     |
+         +---+----------+------------+
+ACTUAL   | N |   0.718  |  0.0000533 |             Accuracy : 0.6017846503818448
+         +---+----------+------------+
+         | S |   0.281  |  0.0002381 |
+         +--------------+------------+
+
+
+            Predicted                        
+
+             +---------+---------+
+             |    F    |    T    |
+         +---+---------+---------+
+ACTUAL   | F |  0.154  |  0.321  |              Accuracy : 0.6028932600011208
+         +---+---------+---------+
+         | T |  0.075  |  0.448  |
+         +---+---------+---------+
+
+
+            Predicted                        
+
+             +---------+-------+
+             |    P    |   J   |
+         +---+---------+-------+
+ACTUAL   | P |  0.350  | 0.162 |              Accuracy : 0.5929200081289374
+         +---+---------+-------+
+         | J |  0.252  | 0.234 |
          +---+---------+-------+
          
 ``` 
