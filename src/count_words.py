@@ -1,9 +1,8 @@
 import pandas as pd
-from collections import Counter
 
 RAW_DATASET_PATH = '../data/raw_data/dataset_v2/all_users_v2.csv'
 ELIMINATED_DATASET_PATH = '../data/eliminated_data/eliminated_all_users_v2.csv'
-PREPROCESSED_ZEMBEREK_DATASET_PATH = '../data/preprocessed_data/zemberek/zemberek_lemmatization.csv'
+PREPROCESSED_ZEMBEREK_DATASET_PATH = '../data/preprocessed_data/zemberek/preprocessed_dataset_zemberek.csv'
 PREPROCESSED_NO_STEMMING_DATASET_PATH = '../data/preprocessed_data/python/preprocessed_dataset_no_stemming.csv'
 PREPROCESSED_WITH_STEMMING_DATASET_PATH = '../data/preprocessed_data/python/preprocessed_dataset_with_stemming.csv'
 
