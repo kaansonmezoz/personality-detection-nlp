@@ -4,3 +4,4 @@ src/preprocessing/zemberek/target/
 src/*_top_1000_words.txt
 *.log
 *.bin
+src/models/fast-text/bin-models.zip
