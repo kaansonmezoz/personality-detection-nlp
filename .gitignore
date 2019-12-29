@@ -1,8 +1,13 @@
 src/preprocessing/zemberek/.idea/
 src/preprocessing/zemberek/target/
+src/preprocessing/zemberek/.settings/
+src/preprocessing/zemberek/target
+src/preprocessing/zemberek/.classpath/
+src/preprocessing/zemberek/.project/
 *.csv
 src/*_top_1000_words.txt
 *.log
 *.bin
 src/models/fast-text/bin-models.zip
 .vscode/
+src/feature-extraction/fastText_word_vectors.zip
