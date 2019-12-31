@@ -1,5 +1,5 @@
 # İçerik
-- [Projenin Genel Yapısı](www.github.com/kaansonmezoz/personality-detection-nlp#projenin-genel-yapısı)
+- [Projenin Genel Yapısı](https://github.com/kaansonmezoz/personality-detection-nlp#projenin-genel-yapısı)
 
 
 
