@@ -1,5 +1,15 @@
-# İçerik
+# Derin Öğrenme İle Kişilik Tespiti
+
+## İçerik
+- [Proje Tanımı](https://gihub.com/kaansonmezoz/personality-prediction-nlp#proje-tanımı)
 - [Projenin Genel Yapısı](https://github.com/kaansonmezoz/personality-detection-nlp#projenin-genel-yapısı)
+- [Repository Hiyerarşisi](https://gihub.com/kaansonmezoz/personality-prediction-nlp#repository-hiyerarşisi)
+- [Kullanılan Teknolojiler](https://gihub.com/kaansonmezoz/personality-prediction-nlp#kullanılan-teknolojiler)
+- [Gereksinimler](https://gihub.com/kaansonmezoz/personality-prediction-nlp#gereksinimler)
+- [Neden MBTI](https://gihub.com/kaansonmezoz/personality-prediction-nlp#neden-mbti)
+- [Oluşturulan Veriseti](https://gihub.com/kaansonmezoz/personality-prediction-nlp#oluşturulan-veriseti)
+- [Diğer Çalışmalar](https://gihub.com/kaansonmezoz/personality-prediction-nlp#diğer-çalışmalar)
+- [Kamuya Açık Verisetleri](https://gihub.com/kaansonmezoz/personality-prediction-nlp#kamuya-açık-verisetleri)
 
 
 
@@ -25,10 +35,6 @@ toplam 660 kullanıcılı bir veri setimiz oluşmuş durumdadır.
 
 - Resources klasörü altında konularla ilgili makaleler, linkler yer almaktadır.
 
-## nltk_data USAGE
-
-- /home/{username} içinde yer almalı.
-
 ## pre-processed dataset links
 
 https://drive.google.com/file/d/1VnGxj5JW3d-vXFj0dK6ZMB4hlX2jfPoS/view?usp=sharing
@@ -38,3 +44,17 @@ https://drive.google.com/file/d/1-07TqnUx7nQeivtZ539NsT9ocre9C8TC/view?usp=shari
 ## Projenin Genel Yapısı
 
 ![Project-Phases](https://raw.githubusercontent.com/kaansonmezoz/personality-detection-nlp/0836b492d89fca540aa51effca5b5b8778e2c862/Project-Phases.png)
+
+## Repository Hiyerarşisi
+
+## Kullanılan Teknolojiler
+
+## Gereksinimler
+
+## Neden MBTI
+
+## Veri Seti
+
+## Diğer Çalışmalar
+
+## Kamuya Açık Verisetleri
