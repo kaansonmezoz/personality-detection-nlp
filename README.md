@@ -1,3 +1,8 @@
+# İçerik
+- [Projenin Genel Yapısı](www.github.com/kaansonmezoz/personality-detection-nlp#projenin-genel-yapısı)
+
+
+
 ## DERİN ÖĞRENME İLE KİŞİLİK TESPİTİ
 
 
@@ -29,5 +34,7 @@ toplam 660 kullanıcılı bir veri setimiz oluşmuş durumdadır.
 https://drive.google.com/file/d/1VnGxj5JW3d-vXFj0dK6ZMB4hlX2jfPoS/view?usp=sharing
 
 https://drive.google.com/file/d/1-07TqnUx7nQeivtZ539NsT9ocre9C8TC/view?usp=sharing
+
+## Projenin Genel Yapısı
 
 ![Project-Phases](https://raw.githubusercontent.com/kaansonmezoz/personality-detection-nlp/0836b492d89fca540aa51effca5b5b8778e2c862/Project-Phases.png)
