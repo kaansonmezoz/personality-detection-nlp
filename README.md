@@ -1,10 +1,10 @@
 # Derin Öğrenme İle Kişilik Tespiti
 
 ## İçerik
-- [Proje Tanımı](https://gihub.com/kaansonmezoz/personality-prediction-nlp#proje-tanımı)
+- [Proje Tanımı](https://github.com/kaansonmezoz/personality-prediction-nlp#proje-tanımı)
 - [Projenin Genel Yapısı](https://github.com/kaansonmezoz/personality-detection-nlp#projenin-genel-yapısı)
-- [Repository Hiyerarşisi](https://gihub.com/kaansonmezoz/personality-prediction-nlp#repository-hiyerarşisi)
-- [Kullanılan Teknolojiler](https://gihub.com/kaansonmezoz/personality-prediction-nlp#kullanılan-teknolojiler)
+- [Repository Hiyerarşisi](https://github.com/kaansonmezoz/personality-prediction-nlp#repository-hiyerarşisi)
+- [Kullanılan Teknolojiler](https://github.com/kaansonmezoz/personality-prediction-nlp#kullanılan-teknolojiler)
 - [Gereksinimler](https://github.com/kaansonmezoz/personality-prediction-nlp#gereksinimler)
 - [Neden MBTI](https://github.com/kaansonmezoz/personality-prediction-nlp#neden-mbti)
 - [Oluşturulan Veriseti](https://github.com/kaansonmezoz/personality-prediction-nlp#oluşturulan-veriseti)
@@ -55,6 +55,6 @@ https://drive.google.com/file/d/1-07TqnUx7nQeivtZ539NsT9ocre9C8TC/view?usp=shari
 
 ## Veri Seti
 
-## Diğer Çalışmalar
+## Diğer Çalışmalar
 
 ## Kamuya Açık Verisetleri
