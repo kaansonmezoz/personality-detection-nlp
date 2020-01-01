@@ -24,7 +24,7 @@
     - bkz, spoiler ve  # içeren entryler silinir.  Bu kelimeler bir olayı olduğu gibi aktarmak için kullanılmaktadır. Herhangi bir öznel ifade içermediğinden kullanıcıların kişiliklerinin tahmin edilmesinde önemli bir rol oynamadıkları düşünülmüştür ve silinmişlerdir.
 
 3. Pre-processing
-    Üç farklı şekilde preprocessing yapılmıştır. Python dilinde Normalizasyon ve Stemming ile alakalı yeterli destek olmadığı için Zemberek kütüphanesi kullanıldı.
+    - Üç farklı şekilde preprocessing yapılmıştır. Python dilinde Normalizasyon ve Stemming ile alakalı yeterli destek olmadığı için Zemberek kütüphanesi kullanıldı.
     
     - Temelde yapılan pre-processing aşamaları
         - Uppercase to lowercase
