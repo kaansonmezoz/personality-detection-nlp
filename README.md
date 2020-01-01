@@ -1,15 +1,15 @@
 # Derin Öğrenme İle Kişilik Tespiti
 
 ## İçerik
-- [Proje Tanımı](https://github.com/kaansonmezoz/personality-detection-nlp#proje-tanımı)
+- [Proje Tanımı](https://gihub.com/kaansonmezoz/personality-prediction-nlp#proje-tanımı)
 - [Projenin Genel Yapısı](https://github.com/kaansonmezoz/personality-detection-nlp#projenin-genel-yapısı)
-- [Repository Hiyerarşisi](https://github.com/kaansonmezoz/personality-detection-nlp#repository-hiyerarşisi)
-- [Kullanılan Teknolojiler](https://github.com/kaansonmezoz/personality-detection-nlp#kullanılan-teknolojiler)
-- [Gereksinimler](https://github.com/kaansonmezoz/personality-detection-nlp#gereksinimler)
-- [Neden MBTI](https://github.com/kaansonmezoz/personality-detection-nlp#neden-mbti)
-- [Oluşturulan Veriseti](https://github.com/kaansonmezoz/personality-detection-nlp#oluşturulan-veriseti)
-- [Diğer Çalışmalar](https://github.com/kaansonmezoz/personality-detection-nlp#diğer-çalışmalar)
-- [Kamuya Açık Verisetleri](https://github.com/kaansonmezoz/personality-detection-nlp#kamuya-açık-verisetleri)
+- [Repository Hiyerarşisi](https://gihub.com/kaansonmezoz/personality-prediction-nlp#repository-hiyerarşisi)
+- [Kullanılan Teknolojiler](https://gihub.com/kaansonmezoz/personality-prediction-nlp#kullanılan-teknolojiler)
+- [Gereksinimler](https://gihub.com/kaansonmezoz/personality-prediction-nlp#gereksinimler)
+- [Neden MBTI](https://gihub.com/kaansonmezoz/personality-prediction-nlp#neden-mbti)
+- [Oluşturulan Veriseti](https://gihub.com/kaansonmezoz/personality-prediction-nlp#oluşturulan-veriseti)
+- [Diğer Çalışmalar](https://gihub.com/kaansonmezoz/personality-prediction-nlp#diğer-çalışmalar)
+- [Kamuya Açık Verisetleri](https://gihub.com/kaansonmezoz/personality-prediction-nlp#kamuya-açık-verisetleri)
 
 
 
@@ -45,7 +45,62 @@ https://drive.google.com/file/d/1-07TqnUx7nQeivtZ539NsT9ocre9C8TC/view?usp=shari
 
 ![Project-Phases](https://raw.githubusercontent.com/kaansonmezoz/personality-detection-nlp/0836b492d89fca540aa51effca5b5b8778e2c862/Project-Phases.png)
 
+1. Crawling
+    - Verisetinin oluşturulduğu aşamadır.
+    - eksisozluk.com'dan daha önceden belirlenmiş olan kullanıcıların entryleri indirilir.
+2. Elimination
+    - Crawling sonucunda oluşan veriseti kullanılır.
+    - bkz, spoiler ve  # içeren entryler silinir.  Bu kelimeler bir olayı olduğu gibi aktarmak için kullanılmaktadır. Herhangi bir öznel ifade içermediğinden kullanıcıların kişiliklerinin tahmin edilmesinde önemli bir rol oynamadıkları düşünülmüştür ve silinmişlerdir.
+
+3. Pre-processing
+
+4. Feature Extraction
+    - TF
+    - TF-IDF
+    - LDA
+    - Word vectors
+
+5. Model Training
+
+6. Model Evaluation
+
 ## Repository Hiyerarşisi
+```
+
+            .
+            ├── data/                                   
+            |    ├── eliminated_data/
+            |    |   └── eliminated_all_users_v2.zip
+            |    ├── preprocessed_data/
+            |    |   ├── python/
+            |    |   |   └── preprocessed_dataset.zip
+            |    |   └── zemberek/
+            |    |       └── preprocessed_dataset_zemberek.zip
+            |    ├── raw_data/
+            |    |   ├── dataset_v1/
+            |    |   |   └── dataset_v1_structured.zip
+            |    |   └── dataset_v2/
+            |    |       ├── all_users_v2.csv
+            |    |       ├── all_users_v2.zip
+            |    |       └── dataset_v2_structured.zip
+            |    ├── README.md
+            |    ├── splitted_data_660_user_from_all_headlines.xlsx
+            |    └── stop_words_tr.txt
+            ├── resources/                   
+            ├── src/
+            |   ├── crawler/
+            |   ├── elimination/
+            |   ├── feature-extraction/
+            |   ├── models/
+            |   ├── preprocessing/
+            |   ├── count_words.py
+            |   └── README.md
+            ├── .gitattributes                 
+            ├── .gitignore
+            └── README.md
+
+
+```
 
 ## Kullanılan Teknolojiler
 
@@ -55,6 +110,6 @@ https://drive.google.com/file/d/1-07TqnUx7nQeivtZ539NsT9ocre9C8TC/view?usp=shari
 
 ## Veri Seti
 
-## Diğer Çalışmalar
+## Diğer Çalışmalar
 
 ## Kamuya Açık Verisetleri
