@@ -110,6 +110,6 @@ https://drive.google.com/file/d/1-07TqnUx7nQeivtZ539NsT9ocre9C8TC/view?usp=shari
 
 ## Veri Seti
 
-## Diğer Çalışmalar
+## Diğer Çalışmalar
 
 ## Kamuya Açık Verisetleri
