@@ -12,35 +12,6 @@
 - [Kamuya Açık Verisetleri](https://gihub.com/kaansonmezoz/personality-prediction-nlp#kamuya-açık-verisetleri)
 
 
-
-## DERİN ÖĞRENME İLE KİŞİLİK TESPİTİ
-
-
-## DATASETS;
-- https://eksisozluk.com/16personalities-com--5123196?p=1 (yaklaşık 600 entry) 
-
-- https://eksisozluk.com/sozlukculerin-kisilik-analizleri--4133116?p=6  (yaklaşık 60 entry)
-
-- https://eksisozluk.com/16-personalities--4966174  (yaklaşık 30 entry)
-
-- https://eksisozluk.com/myers-briggs-kisilik-gostergesi--797181?p=1  (yaklaşık 520 entry)
-
-Yukarıda bulunan başlıkların altına insanlar internet üzerinden çözmüş oldukları MBTI kişilik testlerini paylaştılar. 
-Bu verileri kullanarak paylaştıkları kendilerine ait olan kişilik özellikleri ve girmiş oldukları entry'ler toplanarak bunlarla etiketli bir veri seti elde etmiş olacağız.
-
-Çözmüş oldukları MBTI testi sonucundan çıkan kişiliklerini belirtmiş
-toplam 660 kullanıcılı bir veri setimiz oluşmuş durumdadır.
-
-## RESOURCES
-
-- Resources klasörü altında konularla ilgili makaleler, linkler yer almaktadır.
-
-## pre-processed dataset links
-
-https://drive.google.com/file/d/1VnGxj5JW3d-vXFj0dK6ZMB4hlX2jfPoS/view?usp=sharing
-
-https://drive.google.com/file/d/1-07TqnUx7nQeivtZ539NsT9ocre9C8TC/view?usp=sharing
-
 ## Projenin Genel Yapısı
 
 ![Project-Phases](https://raw.githubusercontent.com/kaansonmezoz/personality-detection-nlp/0836b492d89fca540aa51effca5b5b8778e2c862/Project-Phases.png)
@@ -86,7 +57,7 @@ https://drive.google.com/file/d/1-07TqnUx7nQeivtZ539NsT9ocre9C8TC/view?usp=shari
             |    ├── README.md
             |    ├── splitted_data_660_user_from_all_headlines.xlsx
             |    └── stop_words_tr.txt
-            ├── resources/                   
+            ├── resources/ # Bu klasör altında bu proje ile alakalı makaleler ve yararlanıbilecek kaynaklar yer alır.        
             ├── src/
             |   ├── crawler/
             |   ├── elimination/
@@ -109,6 +80,21 @@ https://drive.google.com/file/d/1-07TqnUx7nQeivtZ539NsT9ocre9C8TC/view?usp=shari
 ## Neden MBTI
 
 ## Veri Seti
+
+- https://eksisozluk.com/16personalities-com--5123196?p=1 (yaklaşık 600 entry) 
+
+- https://eksisozluk.com/sozlukculerin-kisilik-analizleri--4133116?p=6  (yaklaşık 60 entry)
+
+- https://eksisozluk.com/16-personalities--4966174  (yaklaşık 30 entry)
+
+- https://eksisozluk.com/myers-briggs-kisilik-gostergesi--797181?p=1  (yaklaşık 520 entry)
+
+Yukarıda bulunan başlıkların altına insanlar internet üzerinden çözmüş oldukları MBTI kişilik testlerini paylaştılar. 
+Bu verileri kullanarak paylaştıkları kendilerine ait olan kişilik özellikleri ve girmiş oldukları entry'ler toplanarak bunlarla etiketli bir veri seti elde etmiş olacağız.
+
+Çözmüş oldukları MBTI testi sonucundan çıkan kişiliklerini belirtmiş
+toplam 660 kullanıcılı bir veri setimiz oluşmuş durumdadır.
+
 
 ## Diğer Çalışmalar
 
