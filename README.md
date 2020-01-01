@@ -24,6 +24,23 @@
     - bkz, spoiler ve  # içeren entryler silinir.  Bu kelimeler bir olayı olduğu gibi aktarmak için kullanılmaktadır. Herhangi bir öznel ifade içermediğinden kullanıcıların kişiliklerinin tahmin edilmesinde önemli bir rol oynamadıkları düşünülmüştür ve silinmişlerdir.
 
 3. Pre-processing
+    Üç farklı şekilde preprocessing yapılmıştır. Python dilinde Normalizasyon ve Stemming ile alakalı yeterli destek olmadığı için Zemberek kütüphanesi kullanıldı.
+    
+    - Temelde yapılan pre-processing aşamaları
+        - Uppercase to lowercase
+        - Linklerin silinmesi
+        - Rakamların silinmesi
+        - Noktalama işaretlerinin silinmesi
+        - Stop words çıkarılması
+
+    - Snowball Stemmer'ın kullanılması
+        - Yukarıdakilere ek olarak Python dili için geliştirilmiş olan SnowballStemmer içerisindeki TurkishStemmer kullanıldı.
+            - Snowball Stemmer
+    
+    - Zemberek
+        - Temelde yapılan işlemlere ek olarak:
+            - Normalizasyon
+            - Lemmatization
 
 4. Feature Extraction
     - TF
@@ -32,8 +49,17 @@
     - Word vectors
 
 5. Model Training
+    - Naive Bayes
+    - SVM
+    - RandomForest
+    - fastText Classification
 
 6. Model Evaluation
+    - Confussion Matrix
+    - Accuracy
+    - Precision
+    - Recall
+    - F-Score
 
 ## Repository Hiyerarşisi
 ```
