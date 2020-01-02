@@ -21,7 +21,7 @@
     - eksisozluk.com'dan daha önceden belirlenmiş olan kullanıcıların entryleri indirilir.
 2. Elimination
     - Crawling sonucunda oluşan veriseti kullanılır.
-    - bkz, spoiler ve  # içeren entryler silinir.  Bu kelimeler bir olayı olduğu gibi aktarmak için kullanılmaktadır. Herhangi bir öznel ifade içermediğinden kullanıcıların kişiliklerinin tahmin edilmesinde önemli bir rol oynamadıkları düşünülmüştür ve silinmişlerdir.
+    - **bkz**, **spoiler** ve  **#** içeren entryler silinir.  Bu kelimeler bir olayı olduğu gibi aktarmak için kullanılmaktadır. Herhangi bir öznel ifade içermediğinden kullanıcıların kişiliklerinin tahmin edilmesinde önemli bir rol oynamadıkları düşünülmüştür ve silinmişlerdir.
 
 3. Pre-processing
     - Üç farklı şekilde preprocessing yapılmıştır. Python dilinde Normalizasyon ve Stemming ile alakalı yeterli destek olmadığı için Zemberek kütüphanesi kullanıldı.
