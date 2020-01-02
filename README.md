@@ -100,8 +100,41 @@
 ```
 
 ## Kullanılan Teknolojiler
+- NodeJS
+- Java
+- Python
+- npm
+- Google Colab
 
 ## Gereksinimler
+- Veri setini baştan kendiniz oluşturacaksanız
+    - NodeJS'in bilgisayarınızda kurulu olması gerekmektedir. Bilgisayarınızda kurulu olup olmadığını anlamak için:
+        
+        ```node --version``` 
+
+      komutunu çalıştırın. **v10.16.3** (yüklü olan sürüm versiyonu) gibi bir çıktıyla karşılaşıyorsanız NodeJS bilgisayarınızda yüklüdür.
+    
+    - NodeJS için gerekli paketlerin yönetilmesini sağlayan npm'in de kurulu olması gerekmektedir. Npm'in kurulu olup olmadığını anlamak için
+
+        ```npm --version```
+    
+    komutunu çalıştırın. **6.9.0** (kurulu olan versiyon numarası) gibi bir çıktıyla karşılaşıyorsanız npm yüklüdür. Bazı NodeJS sürümlerinde npm içerisinde gelmektedir. O yüzden npm'i direkt kurmadan önce bir kontrol etmenizde yarar var.
+
+    - Veri setini tekrardan oluşturmayacaksanız, ```/data/raw_data/dataset_v2/all_users_v2.zip``` veri setini kullanabilirsiniz.
+
+-  Zemberek pre-processing ile ilgili adımları kendiniz tekrar etmek istiyorsanız JDK'nın bilgisayarınızda kurulu olduğundan emin olun.
+
+    - Veri setini tekrardan kendiniz oluşturduysanız bu adımı da kendinizin tekrardan çalıştırması gerekmektedir.
+
+    - Bu adımı tekrar etmek istemiyorsanız, ```data/preprocessed_data/zemberek/preprocessed_dataset_zemberek.zip``` veri setini kullanabilirsiniz.
+
+    - Zemberek ile ilgili dependency'ler pom.xml ile yönetilmektedir. Sizin tek yapmanız gereken kullanıldığınız IDE yardımıyla bu dependency'lerin indirilmesini sağlamaktır.
+        
+        - Zemberek **Normalizasyon** ve **Lemmatization** aşamalarında ekstradan iki tane dosyaya ihtiyaç duymaktadır.
+        Onları ```src/preprocessing/dependencies``` alt ında bulabilirsiniz. Bu dosyaları indirdiğiniz zaman kodda da ilgili path'lerin değiştirildiğinden emin olun.
+
+- Pre-processing işlemlerinde kullanılan stop words bir dosyadan okunmaktadır. Bunun sebebi stop words'un internetten araştırmalar yapılarak genişletilmiş bir halde olmasıdır. NLTK ve Zemberek içerisindeki kelimeler dışında ekstradan kelimeler bulunmaktadır. Ayrıca ```src/count_words.py``` ile veri setlerinde geçen en çok 1000 kelimenin listesinin çıkarılması ve bu kelimelerin bazılarının stop words dosyasına dahil edilmesi mümkündür.
+
 
 ## Neden MBTI
 
