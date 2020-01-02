@@ -4,19 +4,9 @@ const {parameters} = require('./command');
 
 process.setMaxListeners(120);
 
-process.on('exit', (code) => {  //TODO: bunu aslında command.js içerisine almak lazım
-    if(code === 99){
-        console.log(`Wrong file format !\nInput file should be a text !\nExit code: ${code}`);
-    }
-})
-
 const inputFilePath = parameters.inputFilePath;
 const outputFolderPath = parameters.outputFolderPath;
 const typeClass = parameters.typeClass;
-
-if(!inputFilePath.substring(inputFilePath.length-4).includes('.txt')){      // username;type yani janedoe;intj
-    process.exit(99);
-}
 
 if(!fs.existsSync(outputFolderPath)){
     fs.mkdirSync(outputFolderPath);

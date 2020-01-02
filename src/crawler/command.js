@@ -11,7 +11,7 @@ yargs.option('input-path', {
     type: 'string',
     default: '../entries'
 })
-.option('format', {     //TODO: bunu mesela eksiCrawler projesine almak lazım aslında.
+.option('format', {
     alias: 'f',
     describe: 'Output file format',
     type: 'string',
@@ -24,7 +24,19 @@ yargs.option('input-path', {
     describe: 'Class of the MBTI personality type (i.e Diplomat, Analyst, Sentinel, Explorer)',
     type: 'string'
 })
-.demandOption(['input-path', 'class']);
+.demandOption(['input-path', 'class'])
+.check((argv) => {
+    let fileExtension = argv.i.split(".").pop();
+
+    if(fileExtension !== "txt"){
+        throw new Error(
+            'Unsupported file extension !\n' + 
+            `Expected txt but got ${fileExtension}`        
+        );
+    }
+
+    return true;
+})
 
 exports.parameters = {
     inputFilePath: yargs.argv['input-path'],
