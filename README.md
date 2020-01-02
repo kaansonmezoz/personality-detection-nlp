@@ -157,6 +157,6 @@ Bu verileri kullanarak paylaştıkları kendilerine ait olan kişilik özellikle
 toplam 660 kullanıcılı bir veri setimiz oluşmuş durumdadır.
 
 
-## Diğer Çalışmalar
+## Diğer Çalışmalar
 
 ## Kamuya Açık Verisetleri
