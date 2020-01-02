@@ -1,15 +1,15 @@
 # Derin Öğrenme İle Kişilik Tespiti
 
 ## İçerik
-- [Proje Tanımı](https://gihub.com/kaansonmezoz/personality-prediction-nlp#proje-tanımı)
+- [Proje Tanımı](https://github.com/kaansonmezoz/personality-prediction-nlp#proje-tanımı)
 - [Projenin Genel Yapısı](https://github.com/kaansonmezoz/personality-detection-nlp#projenin-genel-yapısı)
 - [Repository Hiyerarşisi](https://gihub.com/kaansonmezoz/personality-prediction-nlp#repository-hiyerarşisi)
-- [Kullanılan Teknolojiler](https://gihub.com/kaansonmezoz/personality-prediction-nlp#kullanılan-teknolojiler)
+- [Kullanılan Teknolojiler](https://github.com/kaansonmezoz/personality-prediction-nlp#kullanılan-teknolojiler)
 - [Gereksinimler](https://gihub.com/kaansonmezoz/personality-prediction-nlp#gereksinimler)
-- [Neden MBTI](https://gihub.com/kaansonmezoz/personality-prediction-nlp#neden-mbti)
-- [Oluşturulan Veriseti](https://gihub.com/kaansonmezoz/personality-prediction-nlp#oluşturulan-veriseti)
-- [Diğer Çalışmalar](https://gihub.com/kaansonmezoz/personality-prediction-nlp#diğer-çalışmalar)
-- [Kamuya Açık Verisetleri](https://gihub.com/kaansonmezoz/personality-prediction-nlp#kamuya-açık-verisetleri)
+- [Neden MBTI](https://github.com/kaansonmezoz/personality-prediction-nlp#neden-mbti)
+- [Oluşturulan Veriseti](https://github.com/kaansonmezoz/personality-prediction-nlp#oluşturulan-veriseti)
+- [Diğer Çalışmalar](https://github.com/kaansonmezoz/personality-prediction-nlp#diğer-çalışmalar)
+- [Kamuya Açık Verisetleri](https://github.com/kaansonmezoz/personality-prediction-nlp#kamuya-açık-verisetleri)
 
 
 ## Projenin Genel Yapısı
@@ -134,6 +134,8 @@
         Onları ```src/preprocessing/dependencies``` alt ında bulabilirsiniz. Bu dosyaları indirdiğiniz zaman kodda da ilgili path'lerin değiştirildiğinden emin olun.
 
 - Pre-processing işlemlerinde kullanılan stop words bir dosyadan okunmaktadır. Bunun sebebi stop words'un internetten araştırmalar yapılarak genişletilmiş bir halde olmasıdır. NLTK ve Zemberek içerisindeki kelimeler dışında ekstradan kelimeler bulunmaktadır. Ayrıca ```src/count_words.py``` ile veri setlerinde geçen en çok 1000 kelimenin listesinin çıkarılması ve bu kelimelerin bazılarının stop words dosyasına dahil edilmesi mümkündür.
+
+- Anaconda ortamı kullanılarak proje geliştirilmiştir. Bu sayede ihtiyaç duyulan çoğu gereksinim Anaconda tarafından çözülmüştür.
 
 
 ## Neden MBTI
