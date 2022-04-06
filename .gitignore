@@ -12,3 +12,4 @@ src/models/fast-text/bin-models.zip
 .vscode/
 src/feature-extraction/fastText_word_vectors.zip
 src/crawler/node_modules/
+resources/
